@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel de Esportes</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#14171c;--muted:#6b7480;--line:#e4e7ec;--accent:#0b6e4f;--up:#1a7f37;--down:#c62828;--hl:#eef6f2}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--text:#e8ebf0;--muted:#8b95a3;--line:#262c36;--accent:#4cc38a;--up:#4cc38a;--down:#ff6b6b;--hl:#14221c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header,nav,main{max-width:980px;margin:0 auto;padding-left:16px;padding-right:16px}
+header{padding-top:20px;padding-bottom:4px}
+h1{font-size:20px;margin:0}
+.sub{color:var(--muted);font-size:13px}
+nav{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px}
+nav button{border:1px solid var(--line);background:var(--card);color:var(--text);padding:8px 14px;border-radius:999px;cursor:pointer;white-space:nowrap;font:inherit}
+nav button[aria-selected=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{display:grid;gap:16px;padding-bottom:40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;overflow-x:auto}
+.card h2{font-size:12px;margin:0 0 10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.summary{background:var(--hl)}
+.summary p{margin:0}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--muted);font-weight:500;font-size:12px}
+.l{text-align:left}
+tr:last-child td{border-bottom:0}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--muted)}
+ul{list-style:none;margin:0;padding:0}
+li{padding:6px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}
+li:last-child{border-bottom:0}
+.muted{color:var(--muted);font-size:13px}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Painel de Esportes</h1>
+  <div class="sub" id="updated"></div>
+</header>
+<nav id="tabs" role="tablist"></nav>
+<main id="view"></main>
+<script>
+const TABS = [["PL","Premier League"],["PD","La Liga"],["CL","Champions League"],["BSA","Brasileirão"],["F1","Fórmula 1"]];
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = d => d ? new Date(d).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"}) : "";
+const fmtDay = d => d ? new Date(d + "T12:00:00").toLocaleDateString("pt-BR",{day:"2-digit",month:"short"}) : "";
+const move = m => m > 0 ? `<span class="up">▲${m}</span>` : m < 0 ? `<span class="down">▼${-m}</span>` : `<span class="flat">–</span>`;
+let D = {};
+
+async function load(name){
+  try { const r = await fetch(`data/${name}.json`,{cache:"no-store"}); if(!r.ok) throw 0; return await r.json(); }
+  catch(e){ return null; }
+}
+
+function summary(code, round, label){
+  const s = (D.summaries||{})[code];
+  if(s && s.round === round) return `<div class="card summary"><h2>${label} ${round} em resumo</h2><p>${esc(s.text)}</p></div>`;
+  if(s) return `<div class="card summary"><h2>Resumo (${label.toLowerCase()} ${s.round})</h2><p>${esc(s.text)}</p></div>`;
+  return "";
+}
+
+function footballView(code){
+  const c = (D.football||{})[code];
+  if(!c) return `<div class="empty">Sem dados para esta competição ainda.</div>`;
+  const rows = c.table.map(r => `<tr><td>${r.position}</td><td class="l">${esc(r.team)}</td><td>${r.played}</td><td>${r.won}</td><td>${r.draw}</td><td>${r.lost}</td><td>${r.gd>0?"+":""}${r.gd}</td><td><b>${r.points}</b></td><td>${move(r.move)}</td></tr>`).join("");
+  const games = (list, score) => list.length ? `<ul>${list.map(m => `<li><span>${esc(m.home)} ${score && m.hg!=null ? `<b>${m.hg}–${m.ag}</b>` : "x"} ${esc(m.away)}</span><span class="muted">${score ? "" : fmt(m.date)}</span></li>`).join("")}</ul>` : `<div class="muted">Nada por aqui.</div>`;
+  const hl = c.highlights || {zebras:[],goleadas:[]};
+  const extras = [...hl.zebras.map(z => `Zebra: ${esc(z.winner)} (${z.winner_pos}º) venceu ${esc(z.loser)} (${z.loser_pos}º) por ${z.score}`), ...hl.goleadas.map(g => `Goleada: ${esc(g.winner)} ${g.score} ${esc(g.loser)}`)];
+  return `
+    ${c.matchday != null ? summary(code, c.matchday, "Rodada") : ""}
+    <div class="card"><h2>Classificação</h2><table>
+      <tr><th>#</th><th class="l">Time</th><th>J</th><th>V</th><th>E</th><th>D</th><th>SG</th><th>Pts</th><th></th></tr>${rows}</table></div>
+    <div class="cols">
+      <div class="card"><h2>Última rodada${c.matchday!=null?` (${c.matchday})`:""}</h2>${games(c.last_round,true)}${extras.length?`<p class="muted">${extras.join("<br>")}</p>`:""}</div>
+      <div class="card"><h2>Próxima rodada</h2>${games(c.next_round,false)}</div>
+    </div>`;
+}
+
+function f1View(){
+  const f = D.f1;
+  if(!f || !f.last_race) return `<div class="empty">Sem dados da F1 ainda.</div>`;
+  const r = f.last_race;
+  const drivers = f.drivers.map(d => `<tr><td>${d.position}</td><td class="l">${esc(d.name)}</td><td class="l">${esc(d.team)}</td><td><b>${d.points}</b></td><td>${d.wins}</td><td>${move(d.move)}</td></tr>`).join("");
+  const teams = f.constructors.map(t => `<tr><td>${t.position}</td><td class="l">${esc(t.name)}</td><td><b>${t.points}</b></td><td>${t.wins}</td><td>${move(t.move)}</td></tr>`).join("");
+  const res = r.results.slice(0,10).map(x => `<tr><td>${x.position}</td><td class="l">${esc(x.name)}${x.fastest?" ⏱":""}</td><td class="l">${esc(x.team)}</td><td>${x.grid||"–"}</td><td>${esc(x.time || x.status)}</td><td>${x.points}</td></tr>`).join("");
+  const n = f.next_race;
+  return `
+    ${summary("F1", r.round, "Etapa")}
+    <div class="card"><h2>${esc(r.name)} · etapa ${r.round} de ${f.total_races}</h2><table>
+      <tr><th>#</th><th class="l">Piloto</th><th class="l">Equipe</th><th>Grid</th><th>Tempo</th><th>Pts</th></tr>${res}</table>
+      ${n?`<p class="muted">Próxima: ${esc(n.name)} (${esc(n.country)}), ${fmtDay(n.date)}</p>`:""}</div>
+    <div class="card"><h2>Campeonato de pilotos</h2><table>
+      <tr><th>#</th><th class="l">Piloto</th><th class="l">Equipe</th><th>Pts</th><th>Vit</th><th></th></tr>${drivers}</table></div>
+    <div class="card"><h2>Construtores</h2><table>
+      <tr><th>#</th><th class="l">Equipe</th><th>Pts</th><th>Vit</th><th></th></tr>${teams}</table></div>`;
+}
+
+function show(code){
+  document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.code === code));
+  $("view").innerHTML = code === "F1" ? f1View() : footballView(code);
+  history.replaceState(null, "", "#" + code);
+}
+
+(async () => {
+  const [football, f1, summaries, meta] = await Promise.all(["football","f1","summaries","meta"].map(load));
+  D = {football, f1, summaries, meta};
+  $("tabs").innerHTML = TABS.map(([c,n]) => `<button role="tab" data-code="${c}">${n}</button>`).join("");
+  $("tabs").addEventListener("click", e => { const b = e.target.closest("button"); if(b) show(b.dataset.code); });
+  if(meta) $("updated").textContent = "Atualizado em " + fmt(meta.updated_at);
+  const start = location.hash.slice(1);
+  show(TABS.some(t => t[0] === start) ? start : "PL");
+})();
+</script>
+</body>
+</html>
