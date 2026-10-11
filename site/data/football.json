@@ -102,36 +102,28 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": null,
-    "away": "Santos",
-    "date": "2026-10-11T19:00:00Z",
-    "hg": null,
-    "home": "Mineiro",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
+    "ag": 0,
     "away": "Fluminense",
     "date": "2026-10-11T20:30:00Z",
-    "hg": null,
+    "hg": 1,
     "home": "Flamengo",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
-    "ag": null,
+    "ag": 1,
     "away": "Internacional",
     "date": "2026-10-11T20:30:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Grêmio",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
-    "ag": null,
+    "ag": 0,
     "away": "Corinthians",
     "date": "2026-10-11T20:30:00Z",
-    "hg": null,
+    "hg": 4,
     "home": "Palmeiras",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -171,37 +163,37 @@
    {
     "draw": 7,
     "ga": 25,
-    "gd": 32,
-    "gf": 57,
+    "gd": 33,
+    "gf": 58,
     "lost": 4,
     "move": 0,
-    "played": 29,
-    "points": 61,
+    "played": 30,
+    "points": 64,
     "position": 1,
     "team": "Flamengo",
-    "won": 18
+    "won": 19
    },
    {
     "draw": 9,
     "ga": 21,
-    "gd": 27,
-    "gf": 48,
+    "gd": 31,
+    "gf": 52,
     "lost": 3,
     "move": 0,
-    "played": 29,
-    "points": 60,
+    "played": 30,
+    "points": 63,
     "position": 2,
     "team": "Palmeiras",
-    "won": 17
+    "won": 18
    },
    {
     "draw": 9,
-    "ga": 36,
-    "gd": 12,
+    "ga": 37,
+    "gd": 11,
     "gf": 48,
-    "lost": 6,
+    "lost": 7,
     "move": 0,
-    "played": 29,
+    "played": 30,
     "points": 51,
     "position": 3,
     "team": "Fluminense",
@@ -234,6 +226,19 @@
     "won": 14
    },
    {
+    "draw": 8,
+    "ga": 35,
+    "gd": 6,
+    "gf": 41,
+    "lost": 9,
+    "move": 0,
+    "played": 30,
+    "points": 47,
+    "position": 6,
+    "team": "Mineiro",
+    "won": 13
+   },
+   {
     "draw": 10,
     "ga": 36,
     "gd": 7,
@@ -242,31 +247,18 @@
     "move": 0,
     "played": 29,
     "points": 46,
-    "position": 6,
+    "position": 7,
     "team": "Bahia",
     "won": 12
    },
    {
-    "draw": 8,
-    "ga": 34,
-    "gd": 5,
-    "gf": 39,
-    "lost": 9,
-    "move": 0,
-    "played": 29,
-    "points": 44,
-    "position": 7,
-    "team": "Mineiro",
-    "won": 12
-   },
-   {
     "draw": 9,
-    "ga": 43,
-    "gd": 2,
-    "gf": 45,
-    "lost": 9,
+    "ga": 45,
+    "gd": 1,
+    "gf": 46,
+    "lost": 10,
     "move": 0,
-    "played": 29,
+    "played": 30,
     "points": 42,
     "position": 8,
     "team": "Santos",
@@ -351,6 +343,19 @@
     "won": 9
    },
    {
+    "draw": 10,
+    "ga": 37,
+    "gd": -4,
+    "gf": 33,
+    "lost": 12,
+    "move": 0,
+    "played": 30,
+    "points": 34,
+    "position": 15,
+    "team": "Internacional",
+    "won": 8
+   },
+   {
     "draw": 9,
     "ga": 43,
     "gd": -9,
@@ -359,44 +364,31 @@
     "move": 0,
     "played": 29,
     "points": 33,
-    "position": 15,
+    "position": 16,
     "team": "Mirassol",
     "won": 8
    },
    {
     "draw": 8,
-    "ga": 34,
-    "gd": -4,
+    "ga": 38,
+    "gd": -8,
     "gf": 30,
-    "lost": 13,
+    "lost": 14,
     "move": 0,
-    "played": 29,
+    "played": 30,
     "points": 32,
-    "position": 16,
+    "position": 17,
     "team": "Corinthians",
     "won": 8
    },
    {
-    "draw": 10,
-    "ga": 37,
-    "gd": -5,
-    "gf": 32,
-    "lost": 12,
-    "move": 0,
-    "played": 29,
-    "points": 31,
-    "position": 17,
-    "team": "Internacional",
-    "won": 7
-   },
-   {
     "draw": 9,
-    "ga": 39,
-    "gd": -8,
+    "ga": 40,
+    "gd": -9,
     "gf": 31,
-    "lost": 13,
+    "lost": 14,
     "move": 0,
-    "played": 29,
+    "played": 30,
     "points": 30,
     "position": 18,
     "team": "Grêmio",
@@ -1359,9 +1351,9 @@
    },
    {
     "draw": 1,
-    "ga": 7,
-    "gd": 3,
-    "gf": 10,
+    "ga": 9,
+    "gd": 5,
+    "gf": 14,
     "lost": 1,
     "move": 0,
     "played": 8,
@@ -1515,28 +1507,28 @@
    },
    {
     "draw": 2,
-    "ga": 14,
-    "gd": -8,
-    "gf": 6,
+    "ga": 23,
+    "gd": -10,
+    "gf": 13,
     "lost": 4,
     "move": 0,
     "played": 8,
     "points": 8,
     "position": 15,
-    "team": "Osasuna",
+    "team": "Santander",
     "won": 2
    },
    {
-    "draw": 1,
-    "ga": 21,
+    "draw": 2,
+    "ga": 18,
     "gd": -10,
-    "gf": 11,
+    "gf": 8,
     "lost": 4,
     "move": 0,
-    "played": 7,
-    "points": 7,
+    "played": 8,
+    "points": 8,
     "position": 16,
-    "team": "Santander",
+    "team": "Osasuna",
     "won": 2
    },
    {
@@ -1566,6 +1558,19 @@
     "won": 1
    },
    {
+    "draw": 2,
+    "ga": 15,
+    "gd": -9,
+    "gf": 6,
+    "lost": 5,
+    "move": 0,
+    "played": 8,
+    "points": 5,
+    "position": 19,
+    "team": "Valencia",
+    "won": 1
+   },
+   {
     "draw": 4,
     "ga": 13,
     "gd": -9,
@@ -1574,22 +1579,9 @@
     "move": 0,
     "played": 8,
     "points": 4,
-    "position": 19,
+    "position": 20,
     "team": "Málaga",
     "won": 0
-   },
-   {
-    "draw": 1,
-    "ga": 13,
-    "gd": -9,
-    "gf": 4,
-    "lost": 5,
-    "move": 0,
-    "played": 7,
-    "points": 4,
-    "position": 19,
-    "team": "Valencia",
-    "won": 1
    }
   ]
  },
@@ -1685,14 +1677,6 @@
   "name": "Premier League",
   "next_round": [
    {
-    "ag": 2,
-    "away": "Man City",
-    "date": "2026-10-11T15:30:00Z",
-    "hg": 0,
-    "home": "Liverpool",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Newcastle",
     "date": "2026-10-12T19:00:00Z",
@@ -1706,8 +1690,8 @@
    {
     "draw": 0,
     "ga": 5,
-    "gd": 10,
-    "gf": 15,
+    "gd": 11,
+    "gf": 16,
     "lost": 0,
     "move": 0,
     "played": 6,
@@ -1809,8 +1793,8 @@
    },
    {
     "draw": 3,
-    "ga": 6,
-    "gd": 1,
+    "ga": 7,
+    "gd": 0,
     "gf": 7,
     "lost": 1,
     "move": 0,
