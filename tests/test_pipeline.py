@@ -27,6 +27,8 @@ def match(md, i, status):
 def fd_matches():
     ms = [match(md, i, "FINISHED") for md in range(1, 6) for i in range(10)]
     ms += [match(6, i, "FINISHED" if STATE["round"] >= 6 else "TIMED") for i in range(10)]
+    if STATE.get("partial7"):  # rodada seguinte já começou (1 jogo encerrado)
+        ms += [match(7, i, "FINISHED" if i == 0 else "TIMED") for i in range(10)]
     return {"matches": ms}
 
 
@@ -87,7 +89,7 @@ assert fetch_data.main() is True
 fb = read("football.json")
 assert set(fb) == {"PL", "PD", "CL", "BSA"}
 pl = fb["PL"]
-assert pl["matchday"] == 5 and len(pl["table"]) == 20
+assert pl["matchday"] == 5 and pl["settled"] is True and len(pl["table"]) == 20
 assert all(r["move"] == 0 for r in pl["table"]), "primeira coleta não tem base de comparação"
 assert pl["next_round"] and len(pl["next_round"]) == 10
 f1 = read("f1.json")
@@ -116,6 +118,16 @@ assert f1["last_race"]["round"] == 17 and f1["drivers"][0]["points"] == 345
 assert summarize.main() is True and len(calls) == n + 5
 assert read("summaries.json")["F1"]["round"] == 17
 assert "Zebras" in calls[-5] or any("Zebras" in c for c in calls[-5:])
+
+# --- rodada seguinte começou: não assenta, não gera resumo, não mexe nos movimentos ---
+STATE["partial7"] = True
+n = len(calls)
+fetch_data.main()
+pl = read("football.json")["PL"]
+assert pl["matchday"] == 6 and pl["settled"] is False
+assert {r["team"]: r["move"] for r in pl["table"]}["T3"] == 2, "movimentos seguem a rodada assentada"
+assert summarize.main() is False and len(calls) == n
+STATE["partial7"] = False
 
 # --- competição que falha mantém o dado anterior ---
 orig = fetch_data.http_get_json

@@ -43,6 +43,11 @@ def facts_football(c):
     return "\n".join(lines)
 
 
+def _move(m):
+    """Só cita mudança de posição quando existe; evita o modelo ler '0' como pontos."""
+    return "" if not m else f' (posição: {"subiu" if m > 0 else "caiu"} {abs(m)} na etapa)'
+
+
 def facts_f1(f):
     race = f["last_race"]
     d = f["drivers"]
@@ -50,7 +55,7 @@ def facts_f1(f):
     lines.append("Resultado: " + "; ".join(
         f'{r["position"]}º {r["name"]} ({r["team"]})' for r in race["results"][:6]))
     lines.append("Campeonato de pilotos: " + "; ".join(
-        f'{r["position"]}º {r["name"]} {r["points"]} pts ({r["move"]:+d})' for r in d[:6]))
+        f'{r["position"]}º {r["name"]} {r["points"]} pts{_move(r["move"])}' for r in d[:6]))
     if len(d) > 1:
         lines.append(f'Diferença entre 1º e 2º: {d[0]["points"] - d[1]["points"]} pts. '
                      f'Etapas restantes: {f["total_races"] - race["round"]}.')
@@ -80,7 +85,7 @@ def main():
     f1 = load_json(DATA / "f1.json", {})
     jobs = []
     for code, c in football.items():
-        if c.get("matchday") is not None and summaries.get(code, {}).get("round") != c["matchday"]:
+        if c.get("matchday") is not None and c.get("settled") and summaries.get(code, {}).get("round") != c["matchday"]:
             jobs.append((code, c["matchday"], facts_football(c)))
     if f1.get("last_race") and summaries.get("F1", {}).get("round") != f1["last_race"]["round"]:
         jobs.append(("F1", f1["last_race"]["round"], facts_f1(f1)))

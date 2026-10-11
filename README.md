@@ -22,5 +22,5 @@ Tabelas de Premier League, La Liga, Champions League, Brasileirão e F1, com res
 ## Limites conhecidos
 - O plano gratuito do football-data.org traz placar e tabela, sem estatística de jogadores. O resumo fala de tabela e resultados.
 - Jogos adiados no Brasileirão não travam a rodada (adiado conta como encerrado), mas a tabela inclui os jogos já disputados.
-- A classificação usada nas movimentações é a do momento da coleta, que pode incluir jogos de meio de semana já disputados.
+- A rodada só é "assentada" (movimentos e resumo gerados) quando nenhum jogo da rodada seguinte começou. Se as rodadas se sobrepõem por muitos dias, o resumo espera a janela livre. Enquanto isso a tabela continua ao vivo.
 - Modelo do resumo: `deepseek/deepseek-v4.1-flash` no OpenRouter, com raciocínio desligado. Para trocar, defina a variável `SUMMARY_MODEL`.

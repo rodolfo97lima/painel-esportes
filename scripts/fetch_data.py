@@ -29,6 +29,7 @@ COMPETITIONS = {
 }
 CLOSED = {"FINISHED", "POSTPONED", "CANCELLED", "SUSPENDED", "AWARDED"}
 OPEN = {"SCHEDULED", "TIMED", "IN_PLAY", "PAUSED"}
+STARTED = {"IN_PLAY", "PAUSED", "FINISHED", "AWARDED"}
 ZEBRA_GAP = 8  # vencedor ao menos 8 posições abaixo do perdedor
 BIG_WIN = 4    # saldo mínimo para destacar goleada
 
@@ -83,8 +84,6 @@ def apply_moves(rows, key, st, tag, new_round):
     cur = {r[key]: r["position"] for r in rows}
     if new_round:
         st[tag + "_prev"] = st.get(tag + "_cur")
-        st[tag + "_cur"] = cur
-    elif tag + "_cur" not in st:
         st[tag + "_cur"] = cur
     prev = st.get(tag + "_prev") or {}
     for r in rows:
@@ -161,7 +160,13 @@ def build_football(code, name, standings_json, matches_json, cs):
     table = parse_table(standings_json)
     matches = matches_json.get("matches", [])
     md, by_md = closed_matchday(matches)
-    new_round = md is not None and cs.get("matchday") != md
+    # "assentada": nenhum jogo de rodada posterior já começou. Só então a tabela
+    # reflete exatamente o fechamento da rodada (base para movimentos e resumo).
+    settled = md is not None and not any(
+        m.get("matchday") is not None and m["matchday"] > md and m["status"] in STARTED
+        for m in matches
+    )
+    new_round = settled and cs.get("matchday") != md
     apply_moves(table, "team", cs, "table", new_round)
     if new_round:
         cs["matchday"] = md
@@ -172,7 +177,7 @@ def build_football(code, name, standings_json, matches_json, cs):
         nmd = min(m["matchday"] for m in pending)
         nxt = sorted((fmt_match(m) for m in pending if m["matchday"] == nmd), key=lambda x: x["date"] or "")
     return {
-        "code": code, "name": name, "matchday": md, "table": table,
+        "code": code, "name": name, "matchday": md, "settled": settled, "table": table,
         "last_round": last, "next_round": nxt, "highlights": highlights(last, table),
     }
 
