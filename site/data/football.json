@@ -1646,30 +1646,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Everton",
-    "date": "2026-10-11T13:00:00Z",
-    "hg": null,
-    "home": "Hull City",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Nottingham",
-    "date": "2026-10-11T13:00:00Z",
-    "hg": null,
-    "home": "Crystal Palace",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Man City",
-    "date": "2026-10-11T15:30:00Z",
-    "hg": null,
-    "home": "Liverpool",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Newcastle",
     "date": "2026-10-12T19:00:00Z",
     "hg": null,
