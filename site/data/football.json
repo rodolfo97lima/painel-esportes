@@ -102,38 +102,6 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Fluminense",
-    "date": "2026-10-11T20:30:00Z",
-    "hg": 1,
-    "home": "Flamengo",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 1,
-    "away": "Internacional",
-    "date": "2026-10-11T20:30:00Z",
-    "hg": 0,
-    "home": "Grêmio",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "Corinthians",
-    "date": "2026-10-11T20:30:00Z",
-    "hg": 4,
-    "home": "Palmeiras",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
-    "away": "Mirassol",
-    "date": "2026-10-11T22:30:00Z",
-    "hg": null,
-    "home": "Bahia",
-    "status": "TIMED"
-   },
-   {
     "ag": null,
     "away": "Botafogo",
     "date": "2026-10-12T19:00:00Z",
@@ -175,8 +143,8 @@
    },
    {
     "draw": 9,
-    "ga": 21,
-    "gd": 31,
+    "ga": 22,
+    "gd": 30,
     "gf": 52,
     "lost": 3,
     "move": 0,
@@ -213,6 +181,19 @@
     "won": 14
    },
    {
+    "draw": 10,
+    "ga": 36,
+    "gd": 8,
+    "gf": 44,
+    "lost": 7,
+    "move": 0,
+    "played": 30,
+    "points": 49,
+    "position": 5,
+    "team": "Bahia",
+    "won": 13
+   },
+   {
     "draw": 6,
     "ga": 40,
     "gd": 4,
@@ -221,7 +202,7 @@
     "move": 0,
     "played": 29,
     "points": 48,
-    "position": 5,
+    "position": 6,
     "team": "Cruzeiro",
     "won": 14
    },
@@ -234,22 +215,9 @@
     "move": 0,
     "played": 30,
     "points": 47,
-    "position": 6,
+    "position": 7,
     "team": "Mineiro",
     "won": 13
-   },
-   {
-    "draw": 10,
-    "ga": 36,
-    "gd": 7,
-    "gf": 43,
-    "lost": 7,
-    "move": 0,
-    "played": 29,
-    "points": 46,
-    "position": 7,
-    "team": "Bahia",
-    "won": 12
    },
    {
     "draw": 9,
@@ -343,53 +311,53 @@
     "won": 9
    },
    {
-    "draw": 10,
-    "ga": 37,
-    "gd": -4,
-    "gf": 33,
-    "lost": 12,
+    "draw": 9,
+    "ga": 44,
+    "gd": -10,
+    "gf": 34,
+    "lost": 13,
     "move": 0,
     "played": 30,
-    "points": 34,
-    "position": 15,
-    "team": "Internacional",
-    "won": 8
-   },
-   {
-    "draw": 9,
-    "ga": 43,
-    "gd": -9,
-    "gf": 34,
-    "lost": 12,
-    "move": 0,
-    "played": 29,
     "points": 33,
-    "position": 16,
+    "position": 15,
     "team": "Mirassol",
     "won": 8
    },
    {
     "draw": 8,
     "ga": 38,
-    "gd": -8,
-    "gf": 30,
-    "lost": 14,
-    "move": 0,
-    "played": 30,
-    "points": 32,
-    "position": 17,
-    "team": "Corinthians",
-    "won": 8
-   },
-   {
-    "draw": 9,
-    "ga": 40,
-    "gd": -9,
+    "gd": -7,
     "gf": 31,
     "lost": 14,
     "move": 0,
     "played": 30,
-    "points": 30,
+    "points": 32,
+    "position": 16,
+    "team": "Corinthians",
+    "won": 8
+   },
+   {
+    "draw": 11,
+    "ga": 38,
+    "gd": -5,
+    "gf": 33,
+    "lost": 12,
+    "move": 0,
+    "played": 30,
+    "points": 32,
+    "position": 17,
+    "team": "Internacional",
+    "won": 7
+   },
+   {
+    "draw": 10,
+    "ga": 40,
+    "gd": -8,
+    "gf": 32,
+    "lost": 13,
+    "move": 0,
+    "played": 30,
+    "points": 31,
     "position": 18,
     "team": "Grêmio",
     "won": 7
@@ -1676,6 +1644,30 @@
   "matchday": 5,
   "name": "Premier League",
   "next_round": [
+   {
+    "ag": null,
+    "away": "Everton",
+    "date": "2026-10-11T13:00:00Z",
+    "hg": null,
+    "home": "Hull City",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Nottingham",
+    "date": "2026-10-11T13:00:00Z",
+    "hg": null,
+    "home": "Crystal Palace",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Man City",
+    "date": "2026-10-11T15:30:00Z",
+    "hg": null,
+    "home": "Liverpool",
+    "status": "TIMED"
+   },
    {
     "ag": null,
     "away": "Newcastle",
