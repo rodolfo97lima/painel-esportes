@@ -43,7 +43,32 @@
   "teams_prev": null
  },
  "football": {
-  "BSA": {},
+  "BSA": {
+   "matchday": 30,
+   "table_cur": {
+    "Bahia": 5,
+    "Botafogo": 13,
+    "Bragantino": 9,
+    "Chapecoense": 20,
+    "Clube do Remo": 19,
+    "Corinthians": 16,
+    "Coritiba": 11,
+    "Cruzeiro": 6,
+    "Flamengo": 1,
+    "Fluminense": 4,
+    "Grêmio": 18,
+    "Internacional": 17,
+    "Mineiro": 7,
+    "Mirassol": 15,
+    "Palmeiras": 2,
+    "Paranaense": 3,
+    "Santos": 8,
+    "São Paulo": 10,
+    "Vasco da Gama": 14,
+    "Vitória": 12
+   },
+   "table_prev": null
+  },
   "CL": {
    "matchday": 1,
    "table_cur": {
