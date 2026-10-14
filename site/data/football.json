@@ -612,62 +612,6 @@
   "name": "Champions League",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Club Brugge",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 0,
-    "home": "Inter",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "Barça",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 0,
-    "home": "Galatasaray",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "Man United",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 1,
-    "home": "Atleti",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "Lille",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 0,
-    "home": "Arsenal",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "Bayern",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 1,
-    "home": "Viking",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "PSV",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 0,
-    "home": "RB Leipzig",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 1,
-    "away": "Napoli",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": 0,
-    "home": "Villarreal",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Liverpool",
     "date": "2026-10-14T16:45:00Z",
@@ -744,6 +688,19 @@
   "table": [
    {
     "draw": 0,
+    "ga": 2,
+    "gd": 7,
+    "gf": 9,
+    "lost": 0,
+    "move": 0,
+    "played": 2,
+    "points": 6,
+    "position": 1,
+    "team": "Barça",
+    "won": 2
+   },
+   {
+    "draw": 0,
     "ga": 1,
     "gd": 4,
     "gf": 5,
@@ -751,34 +708,34 @@
     "move": 0,
     "played": 2,
     "points": 6,
-    "position": 1,
+    "position": 2,
     "team": "Sporting CP",
     "won": 2
    },
    {
-    "draw": 1,
-    "ga": 1,
+    "draw": 0,
+    "ga": 0,
     "gd": 4,
-    "gf": 5,
+    "gf": 4,
     "lost": 0,
     "move": 0,
     "played": 2,
-    "points": 4,
-    "position": 2,
-    "team": "Barça",
-    "won": 1
+    "points": 6,
+    "position": 3,
+    "team": "Arsenal",
+    "won": 2
    },
    {
     "draw": 1,
-    "ga": 0,
-    "gd": 1,
-    "gf": 1,
+    "ga": 3,
+    "gd": 5,
+    "gf": 8,
     "lost": 0,
     "move": 0,
     "played": 2,
     "points": 4,
-    "position": 3,
-    "team": "Arsenal",
+    "position": 4,
+    "team": "Bayern",
     "won": 1
    },
    {
@@ -790,21 +747,8 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 4,
-    "team": "PSG",
-    "won": 1
-   },
-   {
-    "draw": 0,
-    "ga": 1,
-    "gd": 4,
-    "gf": 5,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 3,
     "position": 5,
-    "team": "Bayern",
+    "team": "PSG",
     "won": 1
    },
    {
@@ -822,14 +766,14 @@
    },
    {
     "draw": 0,
-    "ga": 1,
-    "gd": 3,
+    "ga": 2,
+    "gd": 2,
     "gf": 4,
     "lost": 1,
     "move": 0,
     "played": 2,
     "points": 3,
-    "position": 6,
+    "position": 7,
     "team": "Man United",
     "won": 1
    },
@@ -861,6 +805,19 @@
    },
    {
     "draw": 0,
+    "ga": 4,
+    "gd": 1,
+    "gf": 5,
+    "lost": 1,
+    "move": 0,
+    "played": 2,
+    "points": 3,
+    "position": 10,
+    "team": "Villarreal",
+    "won": 1
+   },
+   {
+    "draw": 0,
     "ga": 2,
     "gd": 1,
     "gf": 3,
@@ -868,7 +825,7 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 10,
+    "position": 11,
     "team": "Aston Villa",
     "won": 1
    },
@@ -881,8 +838,21 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 10,
+    "position": 11,
     "team": "Real Betis",
+    "won": 1
+   },
+   {
+    "draw": 0,
+    "ga": 2,
+    "gd": 1,
+    "gf": 3,
+    "lost": 1,
+    "move": 0,
+    "played": 2,
+    "points": 3,
+    "position": 13,
+    "team": "Atleti",
     "won": 1
    },
    {
@@ -894,7 +864,7 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 12,
+    "position": 14,
     "team": "Dortmund",
     "won": 1
    },
@@ -907,7 +877,7 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 13,
+    "position": 15,
     "team": "Liverpool",
     "won": 1
    },
@@ -920,7 +890,7 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 13,
+    "position": 15,
     "team": "Real Madrid",
     "won": 1
    },
@@ -933,34 +903,21 @@
     "move": 0,
     "played": 1,
     "points": 3,
-    "position": 15,
+    "position": 17,
     "team": "PAE AEK",
     "won": 1
    },
    {
     "draw": 0,
-    "ga": 2,
+    "ga": 6,
     "gd": 0,
-    "gf": 2,
+    "gf": 6,
     "lost": 1,
     "move": 0,
     "played": 2,
     "points": 3,
-    "position": 16,
-    "team": "Atleti",
-    "won": 1
-   },
-   {
-    "draw": 0,
-    "ga": 1,
-    "gd": 0,
-    "gf": 1,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 3,
-    "position": 17,
-    "team": "Napoli",
+    "position": 18,
+    "team": "Club Brugge",
     "won": 1
    },
    {
@@ -972,21 +929,8 @@
     "move": 0,
     "played": 2,
     "points": 3,
-    "position": 18,
-    "team": "RC Lens",
-    "won": 1
-   },
-   {
-    "draw": 0,
-    "ga": 3,
-    "gd": -1,
-    "gf": 2,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 3,
     "position": 19,
-    "team": "Viking",
+    "team": "RC Lens",
     "won": 1
    },
    {
@@ -999,21 +943,21 @@
     "played": 2,
     "points": 3,
     "position": 20,
-    "team": "Sabah FK",
+    "team": "RB Leipzig",
     "won": 1
    },
    {
-    "draw": 2,
-    "ga": 1,
-    "gd": 0,
-    "gf": 1,
-    "lost": 0,
+    "draw": 0,
+    "ga": 4,
+    "gd": -2,
+    "gf": 2,
+    "lost": 1,
     "move": 0,
     "played": 2,
-    "points": 2,
+    "points": 3,
     "position": 21,
-    "team": "PSV",
-    "won": 0
+    "team": "Sabah FK",
+    "won": 1
    },
    {
     "draw": 1,
@@ -1056,32 +1000,6 @@
    },
    {
     "draw": 1,
-    "ga": 3,
-    "gd": -1,
-    "gf": 2,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 1,
-    "position": 25,
-    "team": "Club Brugge",
-    "won": 0
-   },
-   {
-    "draw": 1,
-    "ga": 3,
-    "gd": -1,
-    "gf": 2,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 1,
-    "position": 25,
-    "team": "Lille",
-    "won": 0
-   },
-   {
-    "draw": 1,
     "ga": 2,
     "gd": -1,
     "gf": 1,
@@ -1089,34 +1007,21 @@
     "move": 0,
     "played": 2,
     "points": 1,
-    "position": 27,
-    "team": "Inter",
+    "position": 25,
+    "team": "PSV",
     "won": 0
    },
    {
     "draw": 1,
-    "ga": 3,
+    "ga": 6,
     "gd": -2,
-    "gf": 1,
+    "gf": 4,
     "lost": 1,
     "move": 0,
     "played": 2,
     "points": 1,
-    "position": 28,
-    "team": "Galatasaray",
-    "won": 0
-   },
-   {
-    "draw": 1,
-    "ga": 4,
-    "gd": -3,
-    "gf": 1,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 1,
-    "position": 29,
-    "team": "RB Leipzig",
+    "position": 26,
+    "team": "Viking",
     "won": 0
    },
    {
@@ -1128,21 +1033,21 @@
     "move": 0,
     "played": 1,
     "points": 0,
-    "position": 30,
+    "position": 27,
     "team": "LASK",
     "won": 0
    },
    {
     "draw": 0,
-    "ga": 4,
+    "ga": 6,
     "gd": -2,
-    "gf": 2,
+    "gf": 4,
     "lost": 2,
     "move": 0,
     "played": 2,
     "points": 0,
-    "position": 31,
-    "team": "Villarreal",
+    "position": 28,
+    "team": "Inter",
     "won": 0
    },
    {
@@ -1154,7 +1059,7 @@
     "move": 0,
     "played": 1,
     "points": 0,
-    "position": 32,
+    "position": 29,
     "team": "Porto",
     "won": 0
    },
@@ -1167,8 +1072,34 @@
     "move": 0,
     "played": 2,
     "points": 0,
-    "position": 33,
+    "position": 30,
     "team": "Slavia Praha",
+    "won": 0
+   },
+   {
+    "draw": 0,
+    "ga": 4,
+    "gd": -3,
+    "gf": 1,
+    "lost": 2,
+    "move": 0,
+    "played": 2,
+    "points": 0,
+    "position": 31,
+    "team": "Napoli",
+    "won": 0
+   },
+   {
+    "draw": 0,
+    "ga": 6,
+    "gd": -4,
+    "gf": 2,
+    "lost": 2,
+    "move": 0,
+    "played": 2,
+    "points": 0,
+    "position": 32,
+    "team": "Lille",
     "won": 0
    },
    {
@@ -1180,8 +1111,21 @@
     "move": 0,
     "played": 1,
     "points": 0,
-    "position": 34,
+    "position": 33,
     "team": "Feyenoord",
+    "won": 0
+   },
+   {
+    "draw": 0,
+    "ga": 7,
+    "gd": -5,
+    "gf": 2,
+    "lost": 2,
+    "move": 0,
+    "played": 2,
+    "points": 0,
+    "position": 34,
+    "team": "Galatasaray",
     "won": 0
    },
    {
