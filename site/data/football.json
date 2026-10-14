@@ -440,260 +440,367 @@
   "highlights": {
    "goleadas": [
     {
-     "loser": "Feyenoord",
-     "score": "5-1",
-     "winner": "Barça"
-    },
-    {
-     "loser": "Sl. Bratislava",
-     "score": "6-1",
-     "winner": "PSG"
-    },
-    {
-     "loser": "Bodø/Glimt",
-     "score": "5-0",
-     "winner": "Bayern"
-    },
-    {
-     "loser": "Sabah FK",
-     "score": "4-0",
-     "winner": "Man United"
+     "loser": "Fenerbahçe",
+     "score": "6-0",
+     "winner": "Aston Villa"
     }
    ],
-   "zebras": []
+   "zebras": [
+    {
+     "loser": "Como 1907",
+     "loser_pos": 12,
+     "score": "3-2",
+     "winner": "Feyenoord",
+     "winner_pos": 23
+    }
+   ]
   },
   "last_round": [
    {
-    "ag": 3,
-    "away": "Aston Villa",
-    "date": "2026-09-08T16:45:00Z",
-    "hg": 2,
-    "home": "Club Brugge",
+    "ag": 2,
+    "away": "Sporting CP",
+    "date": "2026-10-13T16:45:00Z",
+    "hg": 0,
+    "home": "RC Lens",
     "status": "FINISHED"
    },
    {
     "ag": 0,
-    "away": "LASK",
-    "date": "2026-09-08T16:45:00Z",
+    "away": "Slavia Praha",
+    "date": "2026-10-13T16:45:00Z",
+    "hg": 2,
+    "home": "Sabah FK",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "Club Brugge",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 3,
+    "home": "Inter",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "Barça",
+    "date": "2026-10-13T19:00:00Z",
     "hg": 1,
-    "home": "PAE AEK",
+    "home": "Galatasaray",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Man United",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 2,
+    "home": "Atleti",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Lille",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 3,
+    "home": "Arsenal",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 3,
+    "away": "Bayern",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 3,
+    "home": "Viking",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "PSV",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 1,
+    "home": "RB Leipzig",
     "status": "FINISHED"
    },
    {
     "ag": 1,
-    "away": "Inter",
-    "date": "2026-09-08T19:00:00Z",
-    "hg": 2,
-    "home": "Real Madrid",
+    "away": "Napoli",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 3,
+    "home": "Villarreal",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 6,
+    "away": "Liverpool",
+    "date": "2026-10-14T16:45:00Z",
+    "hg": 3,
+    "home": "LASK",
     "status": "FINISHED"
    },
    {
     "ag": 2,
-    "away": "Man City",
-    "date": "2026-09-08T19:00:00Z",
-    "hg": 0,
-    "home": "Porto",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 2,
-    "away": "Villarreal",
-    "date": "2026-09-08T19:00:00Z",
+    "away": "Como 1907",
+    "date": "2026-10-14T16:45:00Z",
     "hg": 3,
-    "home": "Dortmund",
+    "home": "Feyenoord",
     "status": "FINISHED"
    },
    {
-    "ag": 3,
-    "away": "Real Betis",
-    "date": "2026-09-08T19:00:00Z",
-    "hg": 2,
-    "home": "Lille",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Feyenoord",
-    "date": "2026-09-09T16:45:00Z",
-    "hg": 5,
-    "home": "Barça",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Viking",
-    "date": "2026-09-09T16:45:00Z",
-    "hg": 3,
-    "home": "Stuttgart",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Atleti",
-    "date": "2026-09-09T19:00:00Z",
-    "hg": 2,
-    "home": "Liverpool",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Sl. Bratislava",
-    "date": "2026-09-09T19:00:00Z",
-    "hg": 6,
-    "home": "PSG",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Arsenal",
-    "date": "2026-09-09T19:00:00Z",
-    "hg": 0,
-    "home": "Napoli",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Galatasaray",
-    "date": "2026-09-09T19:00:00Z",
-    "hg": 3,
-    "home": "Sporting CP",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Roma",
-    "date": "2026-09-10T16:45:00Z",
-    "hg": 1,
-    "home": "Fenerbahçe",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Shaktar",
-    "date": "2026-09-10T16:45:00Z",
-    "hg": 1,
-    "home": "PSV",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Bodø/Glimt",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 5,
-    "home": "Bayern",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Sabah FK",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 4,
-    "home": "Man United",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "RB Leipzig",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 4,
-    "home": "Como 1907",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 3,
-    "away": "RC Lens",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 2,
-    "home": "Slavia Praha",
-    "status": "FINISHED"
-   }
-  ],
-  "matchday": 1,
-  "name": "Champions League",
-  "next_round": [
-   {
-    "ag": 0,
+    "ag": 4,
     "away": "Real Madrid",
     "date": "2026-10-14T19:00:00Z",
-    "hg": 1,
+    "hg": 3,
     "home": "Roma",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    },
    {
-    "ag": 2,
+    "ag": 4,
     "away": "PSG",
     "date": "2026-10-14T19:00:00Z",
-    "hg": 0,
+    "hg": 2,
     "home": "Man City",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    },
    {
     "ag": 0,
     "away": "Dortmund",
     "date": "2026-10-14T19:00:00Z",
-    "hg": 0,
+    "hg": 1,
     "home": "Bodø/Glimt",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    },
    {
     "ag": 0,
     "away": "Fenerbahçe",
     "date": "2026-10-14T19:00:00Z",
-    "hg": 1,
+    "hg": 6,
     "home": "Aston Villa",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    },
    {
-    "ag": 0,
+    "ag": 2,
     "away": "Porto",
     "date": "2026-10-14T19:00:00Z",
-    "hg": 0,
+    "hg": 3,
     "home": "Real Betis",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    },
    {
-    "ag": 0,
+    "ag": 1,
     "away": "PAE AEK",
     "date": "2026-10-14T19:00:00Z",
-    "hg": 0,
+    "hg": 3,
     "home": "Shaktar",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    },
    {
-    "ag": 0,
+    "ag": 3,
     "away": "Stuttgart",
     "date": "2026-10-14T19:00:00Z",
     "hg": 0,
     "home": "Sl. Bratislava",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    }
   ],
-  "settled": false,
+  "matchday": 2,
+  "name": "Champions League",
+  "next_round": [
+   {
+    "ag": null,
+    "away": "Dortmund",
+    "date": "2026-10-20T16:45:00Z",
+    "hg": null,
+    "home": "Sabah FK",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Slavia Praha",
+    "date": "2026-10-20T16:45:00Z",
+    "hg": null,
+    "home": "Fenerbahçe",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "PAE AEK",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Man City",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Atleti",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Stuttgart",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Villarreal",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Liverpool",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Sl. Bratislava",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Roma",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "PSV",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Porto",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bodø/Glimt",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Napoli",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Barça",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "PSG",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Man United",
+    "date": "2026-10-21T16:45:00Z",
+    "hg": null,
+    "home": "Como 1907",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Galatasaray",
+    "date": "2026-10-21T16:45:00Z",
+    "hg": null,
+    "home": "Lille",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "RB Leipzig",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Real Madrid",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Shaktar",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Inter",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Arsenal",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Bayern",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "RC Lens",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Club Brugge",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Viking",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Aston Villa",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "LASK",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Sporting CP",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Feyenoord",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Real Betis",
+    "status": "TIMED"
+   }
+  ],
+  "settled": true,
   "table": [
+   {
+    "draw": 0,
+    "ga": 3,
+    "gd": 7,
+    "gf": 10,
+    "lost": 0,
+    "move": 0,
+    "played": 2,
+    "points": 6,
+    "position": 1,
+    "team": "PSG",
+    "won": 2
+   },
    {
     "draw": 0,
     "ga": 2,
     "gd": 7,
     "gf": 9,
     "lost": 0,
-    "move": 0,
+    "move": 1,
     "played": 2,
     "points": 6,
-    "position": 1,
+    "position": 2,
     "team": "Barça",
     "won": 2
    },
    {
     "draw": 0,
-    "ga": 1,
+    "ga": 2,
     "gd": 7,
-    "gf": 8,
+    "gf": 9,
     "lost": 0,
-    "move": 0,
+    "move": 6,
     "played": 2,
     "points": 6,
-    "position": 2,
-    "team": "PSG",
+    "position": 3,
+    "team": "Aston Villa",
+    "won": 2
+   },
+   {
+    "draw": 0,
+    "ga": 1,
+    "gd": 5,
+    "gf": 6,
+    "lost": 0,
+    "move": 2,
+    "played": 2,
+    "points": 6,
+    "position": 4,
+    "team": "Stuttgart",
     "won": 2
    },
    {
@@ -702,10 +809,10 @@
     "gd": 4,
     "gf": 8,
     "lost": 0,
-    "move": 0,
+    "move": 8,
     "played": 2,
     "points": 6,
-    "position": 3,
+    "position": 5,
     "team": "Liverpool",
     "won": 2
    },
@@ -718,7 +825,7 @@
     "move": 0,
     "played": 2,
     "points": 6,
-    "position": 4,
+    "position": 6,
     "team": "Sporting CP",
     "won": 2
    },
@@ -728,24 +835,37 @@
     "gd": 4,
     "gf": 4,
     "lost": 0,
-    "move": 0,
+    "move": 8,
     "played": 2,
     "points": 6,
-    "position": 5,
+    "position": 7,
     "team": "Arsenal",
     "won": 2
    },
    {
     "draw": 0,
-    "ga": 2,
+    "ga": 4,
     "gd": 2,
-    "gf": 4,
+    "gf": 6,
+    "lost": 0,
+    "move": 5,
+    "played": 2,
+    "points": 6,
+    "position": 8,
+    "team": "Real Madrid",
+    "won": 2
+   },
+   {
+    "draw": 0,
+    "ga": 4,
+    "gd": 2,
+    "gf": 6,
     "lost": 0,
     "move": 0,
     "played": 2,
     "points": 6,
-    "position": 6,
-    "team": "Aston Villa",
+    "position": 9,
+    "team": "Real Betis",
     "won": 2
    },
    {
@@ -754,76 +874,24 @@
     "gd": 5,
     "gf": 8,
     "lost": 0,
-    "move": 0,
+    "move": -8,
     "played": 2,
     "points": 4,
-    "position": 7,
+    "position": 10,
     "team": "Bayern",
     "won": 1
    },
    {
     "draw": 1,
-    "ga": 1,
+    "ga": 2,
     "gd": 2,
-    "gf": 3,
+    "gf": 4,
     "lost": 0,
-    "move": 0,
-    "played": 2,
-    "points": 4,
-    "position": 8,
-    "team": "Stuttgart",
-    "won": 1
-   },
-   {
-    "draw": 1,
-    "ga": 2,
-    "gd": 1,
-    "gf": 3,
-    "lost": 0,
-    "move": 0,
-    "played": 2,
-    "points": 4,
-    "position": 9,
-    "team": "Real Betis",
-    "won": 1
-   },
-   {
-    "draw": 1,
-    "ga": 2,
-    "gd": 1,
-    "gf": 3,
-    "lost": 0,
-    "move": 0,
-    "played": 2,
-    "points": 4,
-    "position": 10,
-    "team": "Dortmund",
-    "won": 1
-   },
-   {
-    "draw": 1,
-    "ga": 1,
-    "gd": 1,
-    "gf": 2,
-    "lost": 0,
-    "move": 0,
+    "move": 6,
     "played": 2,
     "points": 4,
     "position": 11,
-    "team": "Real Madrid",
-    "won": 1
-   },
-   {
-    "draw": 1,
-    "ga": 0,
-    "gd": 1,
-    "gf": 1,
-    "lost": 0,
-    "move": 0,
-    "played": 2,
-    "points": 4,
-    "position": 12,
-    "team": "PAE AEK",
+    "team": "Shaktar",
     "won": 1
    },
    {
@@ -832,10 +900,10 @@
     "gd": 2,
     "gf": 6,
     "lost": 1,
-    "move": 0,
+    "move": -7,
     "played": 2,
     "points": 3,
-    "position": 13,
+    "position": 12,
     "team": "Como 1907",
     "won": 1
    },
@@ -845,10 +913,10 @@
     "gd": 2,
     "gf": 4,
     "lost": 1,
-    "move": 0,
+    "move": -9,
     "played": 2,
     "points": 3,
-    "position": 14,
+    "position": 13,
     "team": "Man United",
     "won": 1
    },
@@ -858,10 +926,10 @@
     "gd": 1,
     "gf": 5,
     "lost": 1,
-    "move": 0,
+    "move": 7,
     "played": 2,
     "points": 3,
-    "position": 15,
+    "position": 14,
     "team": "Villarreal",
     "won": 1
    },
@@ -871,10 +939,10 @@
     "gd": 1,
     "gf": 3,
     "lost": 1,
-    "move": 0,
+    "move": 10,
     "played": 2,
     "points": 3,
-    "position": 16,
+    "position": 15,
     "team": "Atleti",
     "won": 1
    },
@@ -884,24 +952,37 @@
     "gd": 0,
     "gf": 6,
     "lost": 1,
-    "move": 0,
+    "move": 6,
     "played": 2,
     "points": 3,
-    "position": 17,
+    "position": 16,
     "team": "Club Brugge",
     "won": 1
    },
    {
     "draw": 0,
-    "ga": 2,
+    "ga": 4,
     "gd": 0,
-    "gf": 2,
+    "gf": 4,
     "lost": 1,
-    "move": 0,
+    "move": -9,
+    "played": 2,
+    "points": 3,
+    "position": 17,
+    "team": "Man City",
+    "won": 1
+   },
+   {
+    "draw": 0,
+    "ga": 3,
+    "gd": 0,
+    "gf": 3,
+    "lost": 1,
+    "move": -6,
     "played": 2,
     "points": 3,
     "position": 18,
-    "team": "Man City",
+    "team": "Dortmund",
     "won": 1
    },
    {
@@ -910,7 +991,7 @@
     "gd": -1,
     "gf": 3,
     "lost": 1,
-    "move": 0,
+    "move": -10,
     "played": 2,
     "points": 3,
     "position": 19,
@@ -919,14 +1000,27 @@
    },
    {
     "draw": 0,
+    "ga": 3,
+    "gd": -1,
+    "gf": 2,
+    "lost": 1,
+    "move": -4,
+    "played": 2,
+    "points": 3,
+    "position": 20,
+    "team": "PAE AEK",
+    "won": 1
+   },
+   {
+    "draw": 0,
     "ga": 4,
     "gd": -2,
     "gf": 2,
     "lost": 1,
-    "move": 0,
+    "move": 11,
     "played": 2,
     "points": 3,
-    "position": 20,
+    "position": 21,
     "team": "RB Leipzig",
     "won": 1
    },
@@ -936,10 +1030,10 @@
     "gd": -2,
     "gf": 2,
     "lost": 1,
-    "move": 0,
+    "move": 12,
     "played": 2,
     "points": 3,
-    "position": 21,
+    "position": 22,
     "team": "Sabah FK",
     "won": 1
    },
@@ -949,62 +1043,49 @@
     "gd": -3,
     "gf": 4,
     "lost": 1,
-    "move": 0,
+    "move": 10,
     "played": 2,
     "points": 3,
-    "position": 22,
+    "position": 23,
     "team": "Feyenoord",
     "won": 1
    },
    {
-    "draw": 2,
-    "ga": 1,
-    "gd": 0,
+    "draw": 0,
+    "ga": 5,
+    "gd": -4,
     "gf": 1,
-    "lost": 0,
-    "move": 0,
+    "lost": 1,
+    "move": 12,
     "played": 2,
-    "points": 2,
-    "position": 23,
+    "points": 3,
+    "position": 24,
+    "team": "Bodø/Glimt",
+    "won": 1
+   },
+   {
+    "draw": 1,
+    "ga": 5,
+    "gd": -1,
+    "gf": 4,
+    "lost": 1,
+    "move": -8,
+    "played": 2,
+    "points": 1,
+    "position": 25,
     "team": "Roma",
     "won": 0
    },
    {
-    "draw": 2,
-    "ga": 1,
-    "gd": 0,
-    "gf": 1,
-    "lost": 0,
-    "move": 0,
-    "played": 2,
-    "points": 2,
-    "position": 23,
-    "team": "Shaktar",
-    "won": 0
-   },
-   {
     "draw": 1,
     "ga": 2,
     "gd": -1,
     "gf": 1,
     "lost": 1,
-    "move": 0,
+    "move": -7,
     "played": 2,
     "points": 1,
-    "position": 25,
-    "team": "Fenerbahçe",
-    "won": 0
-   },
-   {
-    "draw": 1,
-    "ga": 2,
-    "gd": -1,
-    "gf": 1,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 1,
-    "position": 25,
+    "position": 26,
     "team": "PSV",
     "won": 0
    },
@@ -1014,7 +1095,7 @@
     "gd": -2,
     "gf": 4,
     "lost": 1,
-    "move": 0,
+    "move": 2,
     "played": 2,
     "points": 1,
     "position": 27,
@@ -1023,41 +1104,15 @@
    },
    {
     "draw": 1,
-    "ga": 2,
-    "gd": -2,
-    "gf": 0,
+    "ga": 7,
+    "gd": -6,
+    "gf": 1,
     "lost": 1,
-    "move": 0,
+    "move": -9,
     "played": 2,
     "points": 1,
     "position": 28,
-    "team": "Porto",
-    "won": 0
-   },
-   {
-    "draw": 1,
-    "ga": 6,
-    "gd": -5,
-    "gf": 1,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 1,
-    "position": 29,
-    "team": "Sl. Bratislava",
-    "won": 0
-   },
-   {
-    "draw": 1,
-    "ga": 5,
-    "gd": -5,
-    "gf": 0,
-    "lost": 1,
-    "move": 0,
-    "played": 2,
-    "points": 1,
-    "position": 30,
-    "team": "Bodø/Glimt",
+    "team": "Fenerbahçe",
     "won": 0
    },
    {
@@ -1066,10 +1121,10 @@
     "gd": -2,
     "gf": 4,
     "lost": 2,
-    "move": 0,
+    "move": -4,
     "played": 2,
     "points": 0,
-    "position": 31,
+    "position": 29,
     "team": "Inter",
     "won": 0
    },
@@ -1079,10 +1134,23 @@
     "gd": -3,
     "gf": 2,
     "lost": 2,
-    "move": 0,
+    "move": 1,
     "played": 2,
     "points": 0,
-    "position": 32,
+    "position": 30,
+    "team": "Porto",
+    "won": 0
+   },
+   {
+    "draw": 0,
+    "ga": 5,
+    "gd": -3,
+    "gf": 2,
+    "lost": 2,
+    "move": -9,
+    "played": 2,
+    "points": 0,
+    "position": 31,
     "team": "Slavia Praha",
     "won": 0
    },
@@ -1092,10 +1160,10 @@
     "gd": -3,
     "gf": 1,
     "lost": 2,
-    "move": 0,
+    "move": -5,
     "played": 2,
     "points": 0,
-    "position": 33,
+    "position": 32,
     "team": "Napoli",
     "won": 0
    },
@@ -1105,10 +1173,10 @@
     "gd": -4,
     "gf": 3,
     "lost": 2,
-    "move": 0,
+    "move": -6,
     "played": 2,
     "points": 0,
-    "position": 34,
+    "position": 33,
     "team": "LASK",
     "won": 0
    },
@@ -1118,10 +1186,10 @@
     "gd": -4,
     "gf": 2,
     "lost": 2,
-    "move": 0,
+    "move": -12,
     "played": 2,
     "points": 0,
-    "position": 35,
+    "position": 34,
     "team": "Lille",
     "won": 0
    },
@@ -1131,11 +1199,24 @@
     "gd": -5,
     "gf": 2,
     "lost": 2,
-    "move": 0,
+    "move": -6,
+    "played": 2,
+    "points": 0,
+    "position": 35,
+    "team": "Galatasaray",
+    "won": 0
+   },
+   {
+    "draw": 0,
+    "ga": 9,
+    "gd": -8,
+    "gf": 1,
+    "lost": 2,
+    "move": -1,
     "played": 2,
     "points": 0,
     "position": 36,
-    "team": "Galatasaray",
+    "team": "Sl. Bratislava",
     "won": 0
    }
   ]
@@ -1143,98 +1224,92 @@
  "PD": {
   "code": "PD",
   "highlights": {
-   "goleadas": [
-    {
-     "loser": "Santander",
-     "score": "5-0",
-     "winner": "Celta"
-    }
-   ],
+   "goleadas": [],
    "zebras": []
   },
   "last_round": [
    {
-    "ag": 3,
-    "away": "Elche",
-    "date": "2026-09-18T19:00:00Z",
-    "hg": 1,
-    "home": "Espanyol",
-    "status": "FINISHED"
-   },
-   {
     "ag": 1,
-    "away": "Rayo Vallecano",
-    "date": "2026-09-19T12:00:00Z",
+    "away": "Espanyol",
+    "date": "2026-10-09T19:00:00Z",
     "hg": 1,
-    "home": "Osasuna",
+    "home": "Málaga",
     "status": "FINISHED"
    },
    {
     "ag": 0,
-    "away": "Alavés",
-    "date": "2026-09-19T14:15:00Z",
+    "away": "Athletic",
+    "date": "2026-10-10T12:00:00Z",
     "hg": 0,
-    "home": "Athletic",
+    "home": "Rayo Vallecano",
+    "status": "CANCELLED"
+   },
+   {
+    "ag": 2,
+    "away": "Atleti",
+    "date": "2026-10-10T14:15:00Z",
+    "hg": 1,
+    "home": "Alavés",
     "status": "FINISHED"
    },
    {
     "ag": 0,
-    "away": "Santander",
-    "date": "2026-09-19T16:30:00Z",
-    "hg": 5,
-    "home": "Celta",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 3,
-    "away": "Barça",
-    "date": "2026-09-19T19:00:00Z",
-    "hg": 1,
-    "home": "Sevilla FC",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Málaga",
-    "date": "2026-09-20T12:00:00Z",
-    "hg": 1,
-    "home": "Getafe",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Real Madrid",
-    "date": "2026-09-20T14:15:00Z",
-    "hg": 2,
-    "home": "Atleti",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Real Betis",
-    "date": "2026-09-20T16:30:00Z",
-    "hg": 1,
-    "home": "Deportivo",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Levante",
-    "date": "2026-09-20T16:30:00Z",
+    "away": "Getafe",
+    "date": "2026-10-10T16:30:00Z",
     "hg": 3,
-    "home": "Villarreal",
+    "home": "Barça",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Villarreal",
+    "date": "2026-10-10T19:00:00Z",
+    "hg": 1,
+    "home": "Real Madrid",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Celta",
+    "date": "2026-10-11T12:00:00Z",
+    "hg": 0,
+    "home": "Elche",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 2,
+    "away": "Deportivo",
+    "date": "2026-10-11T14:15:00Z",
+    "hg": 3,
+    "home": "Real Sociedad",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 2,
+    "away": "Osasuna",
+    "date": "2026-10-11T16:30:00Z",
+    "hg": 5,
+    "home": "Real Betis",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 2,
+    "away": "Valencia",
+    "date": "2026-10-11T19:00:00Z",
+    "hg": 2,
+    "home": "Santander",
     "status": "FINISHED"
    },
    {
     "ag": 3,
-    "away": "Real Sociedad",
-    "date": "2026-09-20T19:00:00Z",
-    "hg": 2,
-    "home": "Valencia",
+    "away": "Sevilla FC",
+    "date": "2026-10-12T19:00:00Z",
+    "hg": 3,
+    "home": "Levante",
     "status": "FINISHED"
    }
   ],
-  "matchday": 7,
+  "matchday": 8,
   "name": "La Liga",
   "next_round": [
    {
@@ -1246,7 +1321,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": false,
+  "settled": true,
   "table": [
    {
     "draw": 0,

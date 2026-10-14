@@ -70,8 +70,46 @@
    "table_prev": null
   },
   "CL": {
-   "matchday": 1,
+   "matchday": 2,
    "table_cur": {
+    "Arsenal": 7,
+    "Aston Villa": 3,
+    "Atleti": 15,
+    "Barça": 2,
+    "Bayern": 10,
+    "Bodø/Glimt": 24,
+    "Club Brugge": 16,
+    "Como 1907": 12,
+    "Dortmund": 18,
+    "Fenerbahçe": 28,
+    "Feyenoord": 23,
+    "Galatasaray": 35,
+    "Inter": 29,
+    "LASK": 33,
+    "Lille": 34,
+    "Liverpool": 5,
+    "Man City": 17,
+    "Man United": 13,
+    "Napoli": 32,
+    "PAE AEK": 20,
+    "PSG": 1,
+    "PSV": 26,
+    "Porto": 30,
+    "RB Leipzig": 21,
+    "RC Lens": 19,
+    "Real Betis": 9,
+    "Real Madrid": 8,
+    "Roma": 25,
+    "Sabah FK": 22,
+    "Shaktar": 11,
+    "Sl. Bratislava": 36,
+    "Slavia Praha": 31,
+    "Sporting CP": 6,
+    "Stuttgart": 4,
+    "Viking": 27,
+    "Villarreal": 14
+   },
+   "table_prev": {
     "Arsenal": 15,
     "Aston Villa": 9,
     "Atleti": 25,
@@ -108,8 +146,7 @@
     "Stuttgart": 6,
     "Viking": 29,
     "Villarreal": 21
-   },
-   "table_prev": null
+   }
   },
   "PD": {
    "matchday": 8,
