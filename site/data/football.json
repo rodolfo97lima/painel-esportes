@@ -1317,16 +1317,16 @@
   "table": [
    {
     "draw": 0,
-    "ga": 7,
-    "gd": 27,
-    "gf": 34,
+    "ga": 9,
+    "gd": 30,
+    "gf": 39,
     "lost": 0,
     "move": 0,
-    "played": 8,
-    "points": 24,
+    "played": 9,
+    "points": 27,
     "position": 1,
     "team": "Barça",
-    "won": 8
+    "won": 9
    },
    {
     "draw": 1,
@@ -1343,12 +1343,12 @@
    },
    {
     "draw": 1,
-    "ga": 9,
-    "gd": 5,
-    "gf": 14,
-    "lost": 1,
+    "ga": 14,
+    "gd": 2,
+    "gf": 16,
+    "lost": 2,
     "move": 0,
-    "played": 8,
+    "played": 9,
     "points": 19,
     "position": 3,
     "team": "Real Betis",
@@ -1421,6 +1421,19 @@
    },
    {
     "draw": 3,
+    "ga": 6,
+    "gd": 1,
+    "gf": 7,
+    "lost": 2,
+    "move": 0,
+    "played": 7,
+    "points": 9,
+    "position": 9,
+    "team": "Athletic",
+    "won": 2
+   },
+   {
+    "draw": 3,
     "ga": 13,
     "gd": 0,
     "gf": 13,
@@ -1428,7 +1441,7 @@
     "move": 0,
     "played": 9,
     "points": 9,
-    "position": 9,
+    "position": 10,
     "team": "Villarreal",
     "won": 2
    },
@@ -1441,22 +1454,9 @@
     "move": 0,
     "played": 8,
     "points": 8,
-    "position": 10,
+    "position": 11,
     "team": "Celta",
     "won": 1
-   },
-   {
-    "draw": 2,
-    "ga": 6,
-    "gd": 1,
-    "gf": 7,
-    "lost": 2,
-    "move": 0,
-    "played": 6,
-    "points": 8,
-    "position": 11,
-    "team": "Athletic",
-    "won": 2
    },
    {
     "draw": 2,
@@ -1550,14 +1550,14 @@
     "won": 1
    },
    {
-    "draw": 2,
+    "draw": 3,
     "ga": 15,
     "gd": -9,
     "gf": 6,
     "lost": 5,
     "move": 0,
-    "played": 8,
-    "points": 5,
+    "played": 9,
+    "points": 6,
     "position": 19,
     "team": "Valencia",
     "won": 1
@@ -1675,38 +1675,6 @@
   "name": "Premier League",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Hull City",
-    "date": "2026-10-17T14:00:00Z",
-    "hg": 1,
-    "home": "Fulham",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 1,
-    "away": "Ipswich Town",
-    "date": "2026-10-17T14:00:00Z",
-    "hg": 3,
-    "home": "Man City",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 1,
-    "away": "Liverpool",
-    "date": "2026-10-17T14:00:00Z",
-    "hg": 1,
-    "home": "Brentford",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
-    "away": "Aston Villa",
-    "date": "2026-10-17T16:30:00Z",
-    "hg": null,
-    "home": "Newcastle",
-    "status": "TIMED"
-   },
-   {
     "ag": null,
     "away": "Sunderland",
     "date": "2026-10-18T13:00:00Z",
@@ -1751,8 +1719,8 @@
   "table": [
    {
     "draw": 0,
-    "ga": 6,
-    "gd": 13,
+    "ga": 7,
+    "gd": 12,
     "gf": 19,
     "lost": 0,
     "move": 0,
@@ -1869,8 +1837,8 @@
    {
     "draw": 0,
     "ga": 15,
-    "gd": -5,
-    "gf": 10,
+    "gd": -4,
+    "gf": 11,
     "lost": 4,
     "move": 0,
     "played": 7,
@@ -1881,15 +1849,28 @@
    },
    {
     "draw": 2,
-    "ga": 13,
-    "gd": -3,
+    "ga": 14,
+    "gd": -4,
     "gf": 10,
-    "lost": 2,
+    "lost": 3,
     "move": 0,
-    "played": 6,
+    "played": 7,
     "points": 8,
     "position": 11,
     "team": "Newcastle",
+    "won": 2
+   },
+   {
+    "draw": 2,
+    "ga": 11,
+    "gd": -4,
+    "gf": 7,
+    "lost": 3,
+    "move": 0,
+    "played": 7,
+    "points": 8,
+    "position": 12,
+    "team": "Aston Villa",
     "won": 2
    },
    {
@@ -1901,7 +1882,7 @@
     "move": 0,
     "played": 6,
     "points": 7,
-    "position": 12,
+    "position": 13,
     "team": "Crystal Palace",
     "won": 2
    },
@@ -1914,7 +1895,7 @@
     "move": 0,
     "played": 6,
     "points": 6,
-    "position": 13,
+    "position": 14,
     "team": "Man United",
     "won": 1
    },
@@ -1927,7 +1908,7 @@
     "move": 0,
     "played": 6,
     "points": 6,
-    "position": 14,
+    "position": 15,
     "team": "Coventry City",
     "won": 2
    },
@@ -1940,7 +1921,7 @@
     "move": 0,
     "played": 7,
     "points": 5,
-    "position": 15,
+    "position": 16,
     "team": "Fulham",
     "won": 1
    },
@@ -1953,21 +1934,8 @@
     "move": 0,
     "played": 6,
     "points": 5,
-    "position": 16,
-    "team": "Nottingham",
-    "won": 1
-   },
-   {
-    "draw": 2,
-    "ga": 11,
-    "gd": -5,
-    "gf": 6,
-    "lost": 3,
-    "move": 0,
-    "played": 6,
-    "points": 5,
     "position": 17,
-    "team": "Aston Villa",
+    "team": "Nottingham",
     "won": 1
    },
    {
