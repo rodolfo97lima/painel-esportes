@@ -91,30 +91,6 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Coritiba",
-    "date": "2026-10-17T21:30:00Z",
-    "hg": 0,
-    "home": "Mineiro",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 2,
-    "away": "Palmeiras",
-    "date": "2026-10-17T22:30:00Z",
-    "hg": 0,
-    "home": "Paranaense",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
-    "away": "Vasco da Gama",
-    "date": "2026-10-18T00:00:00Z",
-    "hg": null,
-    "home": "São Paulo",
-    "status": "TIMED"
-   },
-   {
     "ag": null,
     "away": "Santos",
     "date": "2026-10-18T19:00:00Z",
@@ -249,6 +225,19 @@
     "won": 14
    },
    {
+    "draw": 6,
+    "ga": 35,
+    "gd": 1,
+    "gf": 36,
+    "lost": 13,
+    "move": 0,
+    "played": 31,
+    "points": 42,
+    "position": 8,
+    "team": "São Paulo",
+    "won": 12
+   },
+   {
     "draw": 9,
     "ga": 45,
     "gd": 1,
@@ -257,7 +246,7 @@
     "move": 0,
     "played": 30,
     "points": 42,
-    "position": 8,
+    "position": 9,
     "team": "Santos",
     "won": 11
    },
@@ -270,21 +259,8 @@
     "move": 0,
     "played": 30,
     "points": 40,
-    "position": 9,
-    "team": "Bragantino",
-    "won": 11
-   },
-   {
-    "draw": 6,
-    "ga": 35,
-    "gd": 0,
-    "gf": 35,
-    "lost": 13,
-    "move": 0,
-    "played": 30,
-    "points": 39,
     "position": 10,
-    "team": "São Paulo",
+    "team": "Bragantino",
     "won": 11
    },
    {
@@ -341,12 +317,12 @@
    },
    {
     "draw": 8,
-    "ga": 42,
-    "gd": -6,
+    "ga": 43,
+    "gd": -7,
     "gf": 36,
-    "lost": 12,
+    "lost": 13,
     "move": 0,
-    "played": 29,
+    "played": 30,
     "points": 35,
     "position": 15,
     "team": "Vasco da Gama",
@@ -424,319 +400,312 @@
   "highlights": {
    "goleadas": [
     {
-     "loser": "Feyenoord",
-     "score": "5-1",
-     "winner": "Barça"
-    },
-    {
-     "loser": "Sl. Bratislava",
-     "score": "6-1",
-     "winner": "PSG"
-    },
-    {
-     "loser": "Bodø/Glimt",
-     "score": "5-0",
-     "winner": "Bayern"
-    },
-    {
-     "loser": "Sabah FK",
-     "score": "4-0",
-     "winner": "Man United"
+     "loser": "Fenerbahçe",
+     "score": "6-0",
+     "winner": "Aston Villa"
     }
    ],
-   "zebras": []
+   "zebras": [
+    {
+     "loser": "Como 1907",
+     "loser_pos": 12,
+     "score": "3-2",
+     "winner": "Feyenoord",
+     "winner_pos": 23
+    }
+   ]
   },
   "last_round": [
    {
-    "ag": 3,
-    "away": "Aston Villa",
-    "date": "2026-09-08T16:45:00Z",
-    "hg": 2,
-    "home": "Club Brugge",
+    "ag": 2,
+    "away": "Sporting CP",
+    "date": "2026-10-13T16:45:00Z",
+    "hg": 0,
+    "home": "RC Lens",
     "status": "FINISHED"
    },
    {
     "ag": 0,
-    "away": "LASK",
-    "date": "2026-09-08T16:45:00Z",
-    "hg": 1,
-    "home": "PAE AEK",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Inter",
-    "date": "2026-09-08T19:00:00Z",
+    "away": "Slavia Praha",
+    "date": "2026-10-13T16:45:00Z",
     "hg": 2,
-    "home": "Real Madrid",
+    "home": "Sabah FK",
     "status": "FINISHED"
    },
    {
-    "ag": 2,
-    "away": "Man City",
-    "date": "2026-09-08T19:00:00Z",
-    "hg": 0,
-    "home": "Porto",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 2,
-    "away": "Villarreal",
-    "date": "2026-09-08T19:00:00Z",
+    "ag": 4,
+    "away": "Club Brugge",
+    "date": "2026-10-13T19:00:00Z",
     "hg": 3,
-    "home": "Dortmund",
+    "home": "Inter",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "Barça",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 1,
+    "home": "Galatasaray",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Man United",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 2,
+    "home": "Atleti",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Lille",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 3,
+    "home": "Arsenal",
     "status": "FINISHED"
    },
    {
     "ag": 3,
-    "away": "Real Betis",
-    "date": "2026-09-08T19:00:00Z",
-    "hg": 2,
-    "home": "Lille",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Feyenoord",
-    "date": "2026-09-09T16:45:00Z",
-    "hg": 5,
-    "home": "Barça",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Viking",
-    "date": "2026-09-09T16:45:00Z",
+    "away": "Bayern",
+    "date": "2026-10-13T19:00:00Z",
     "hg": 3,
-    "home": "Stuttgart",
+    "home": "Viking",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "PSV",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 1,
+    "home": "RB Leipzig",
     "status": "FINISHED"
    },
    {
     "ag": 1,
-    "away": "Atleti",
-    "date": "2026-09-09T19:00:00Z",
+    "away": "Napoli",
+    "date": "2026-10-13T19:00:00Z",
+    "hg": 3,
+    "home": "Villarreal",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 6,
+    "away": "Liverpool",
+    "date": "2026-10-14T16:45:00Z",
+    "hg": 3,
+    "home": "LASK",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 2,
+    "away": "Como 1907",
+    "date": "2026-10-14T16:45:00Z",
+    "hg": 3,
+    "home": "Feyenoord",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "Real Madrid",
+    "date": "2026-10-14T19:00:00Z",
+    "hg": 3,
+    "home": "Roma",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "PSG",
+    "date": "2026-10-14T19:00:00Z",
     "hg": 2,
-    "home": "Liverpool",
+    "home": "Man City",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Sl. Bratislava",
-    "date": "2026-09-09T19:00:00Z",
+    "ag": 0,
+    "away": "Dortmund",
+    "date": "2026-10-14T19:00:00Z",
+    "hg": 1,
+    "home": "Bodø/Glimt",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Fenerbahçe",
+    "date": "2026-10-14T19:00:00Z",
     "hg": 6,
-    "home": "PSG",
+    "home": "Aston Villa",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Arsenal",
-    "date": "2026-09-09T19:00:00Z",
-    "hg": 0,
-    "home": "Napoli",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Galatasaray",
-    "date": "2026-09-09T19:00:00Z",
+    "ag": 2,
+    "away": "Porto",
+    "date": "2026-10-14T19:00:00Z",
     "hg": 3,
-    "home": "Sporting CP",
+    "home": "Real Betis",
     "status": "FINISHED"
    },
    {
     "ag": 1,
-    "away": "Roma",
-    "date": "2026-09-10T16:45:00Z",
-    "hg": 1,
-    "home": "Fenerbahçe",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Shaktar",
-    "date": "2026-09-10T16:45:00Z",
-    "hg": 1,
-    "home": "PSV",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Bodø/Glimt",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 5,
-    "home": "Bayern",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Sabah FK",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 4,
-    "home": "Man United",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "RB Leipzig",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 4,
-    "home": "Como 1907",
+    "away": "PAE AEK",
+    "date": "2026-10-14T19:00:00Z",
+    "hg": 3,
+    "home": "Shaktar",
     "status": "FINISHED"
    },
    {
     "ag": 3,
-    "away": "RC Lens",
-    "date": "2026-09-10T19:00:00Z",
-    "hg": 2,
-    "home": "Slavia Praha",
+    "away": "Stuttgart",
+    "date": "2026-10-14T19:00:00Z",
+    "hg": 0,
+    "home": "Sl. Bratislava",
     "status": "FINISHED"
    }
   ],
-  "matchday": 1,
+  "matchday": 2,
   "name": "Champions League",
   "next_round": [
    {
     "ag": null,
-    "away": "Sporting CP",
-    "date": "2026-10-13T16:45:00Z",
-    "hg": null,
-    "home": "RC Lens",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Slavia Praha",
-    "date": "2026-10-13T16:45:00Z",
+    "away": "Dortmund",
+    "date": "2026-10-20T16:45:00Z",
     "hg": null,
     "home": "Sabah FK",
     "status": "TIMED"
    },
    {
     "ag": null,
-    "away": "Club Brugge",
-    "date": "2026-10-13T19:00:00Z",
+    "away": "Slavia Praha",
+    "date": "2026-10-20T16:45:00Z",
     "hg": null,
-    "home": "Inter",
+    "home": "Fenerbahçe",
     "status": "TIMED"
    },
    {
     "ag": null,
-    "away": "Barça",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": null,
-    "home": "Galatasaray",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Man United",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": null,
-    "home": "Atleti",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Lille",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": null,
-    "home": "Arsenal",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Bayern",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": null,
-    "home": "Viking",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "PSV",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": null,
-    "home": "RB Leipzig",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Napoli",
-    "date": "2026-10-13T19:00:00Z",
-    "hg": null,
-    "home": "Villarreal",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Liverpool",
-    "date": "2026-10-14T16:45:00Z",
-    "hg": null,
-    "home": "LASK",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Como 1907",
-    "date": "2026-10-14T16:45:00Z",
-    "hg": null,
-    "home": "Feyenoord",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Real Madrid",
-    "date": "2026-10-14T19:00:00Z",
-    "hg": null,
-    "home": "Roma",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "PSG",
-    "date": "2026-10-14T19:00:00Z",
+    "away": "PAE AEK",
+    "date": "2026-10-20T19:00:00Z",
     "hg": null,
     "home": "Man City",
     "status": "TIMED"
    },
    {
     "ag": null,
-    "away": "Dortmund",
-    "date": "2026-10-14T19:00:00Z",
+    "away": "Atleti",
+    "date": "2026-10-20T19:00:00Z",
     "hg": null,
-    "home": "Bodø/Glimt",
+    "home": "Stuttgart",
     "status": "TIMED"
    },
    {
     "ag": null,
-    "away": "Fenerbahçe",
-    "date": "2026-10-14T19:00:00Z",
+    "away": "Villarreal",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Liverpool",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Sl. Bratislava",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Roma",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "PSV",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Porto",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bodø/Glimt",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "Napoli",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Barça",
+    "date": "2026-10-20T19:00:00Z",
+    "hg": null,
+    "home": "PSG",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Man United",
+    "date": "2026-10-21T16:45:00Z",
+    "hg": null,
+    "home": "Como 1907",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Galatasaray",
+    "date": "2026-10-21T16:45:00Z",
+    "hg": null,
+    "home": "Lille",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "RB Leipzig",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Real Madrid",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Shaktar",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Inter",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Arsenal",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Bayern",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "RC Lens",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Club Brugge",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Viking",
+    "date": "2026-10-21T19:00:00Z",
     "hg": null,
     "home": "Aston Villa",
     "status": "TIMED"
    },
    {
     "ag": null,
-    "away": "Porto",
-    "date": "2026-10-14T19:00:00Z",
+    "away": "LASK",
+    "date": "2026-10-21T19:00:00Z",
+    "hg": null,
+    "home": "Sporting CP",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Feyenoord",
+    "date": "2026-10-21T19:00:00Z",
     "hg": null,
     "home": "Real Betis",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "PAE AEK",
-    "date": "2026-10-14T19:00:00Z",
-    "hg": null,
-    "home": "Shaktar",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Stuttgart",
-    "date": "2026-10-14T19:00:00Z",
-    "hg": null,
-    "home": "Sl. Bratislava",
     "status": "TIMED"
    }
   ],
