@@ -1408,6 +1408,32 @@
     "won": 2
    },
    {
+    "draw": 3,
+    "ga": 17,
+    "gd": -5,
+    "gf": 12,
+    "lost": 3,
+    "move": 0,
+    "played": 8,
+    "points": 9,
+    "position": 13,
+    "team": "Rayo Vallecano",
+    "won": 2
+   },
+   {
+    "draw": 3,
+    "ga": 11,
+    "gd": -6,
+    "gf": 5,
+    "lost": 4,
+    "move": 0,
+    "played": 9,
+    "points": 9,
+    "position": 14,
+    "team": "Getafe",
+    "won": 2
+   },
+   {
     "draw": 2,
     "ga": 12,
     "gd": -1,
@@ -1416,34 +1442,8 @@
     "move": 0,
     "played": 9,
     "points": 8,
-    "position": 13,
-    "team": "Espanyol",
-    "won": 2
-   },
-   {
-    "draw": 2,
-    "ga": 16,
-    "gd": -5,
-    "gf": 11,
-    "lost": 3,
-    "move": 0,
-    "played": 7,
-    "points": 8,
-    "position": 14,
-    "team": "Rayo Vallecano",
-    "won": 2
-   },
-   {
-    "draw": 2,
-    "ga": 10,
-    "gd": -6,
-    "gf": 4,
-    "lost": 4,
-    "move": 0,
-    "played": 8,
-    "points": 8,
     "position": 15,
-    "team": "Getafe",
+    "team": "Espanyol",
     "won": 2
    },
    {
@@ -1611,12 +1611,12 @@
   "name": "Premier League",
   "next_round": [
    {
-    "ag": null,
+    "ag": 1,
     "away": "Coventry City",
     "date": "2026-10-19T19:00:00Z",
-    "hg": null,
+    "hg": 2,
     "home": "Tottenham",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    }
   ],
   "settled": false,
@@ -1817,15 +1817,28 @@
     "won": 1
    },
    {
-    "draw": 0,
-    "ga": 11,
-    "gd": -6,
+    "draw": 3,
+    "ga": 10,
+    "gd": -5,
     "gf": 5,
-    "lost": 4,
+    "lost": 3,
     "move": 0,
-    "played": 6,
+    "played": 7,
     "points": 6,
     "position": 16,
+    "team": "Tottenham",
+    "won": 1
+   },
+   {
+    "draw": 0,
+    "ga": 13,
+    "gd": -7,
+    "gf": 6,
+    "lost": 5,
+    "move": 0,
+    "played": 7,
+    "points": 6,
+    "position": 17,
     "team": "Coventry City",
     "won": 2
    },
@@ -1838,7 +1851,7 @@
     "move": 0,
     "played": 7,
     "points": 5,
-    "position": 17,
+    "position": 18,
     "team": "Fulham",
     "won": 1
    },
@@ -1851,7 +1864,7 @@
     "move": 0,
     "played": 7,
     "points": 5,
-    "position": 18,
+    "position": 19,
     "team": "Nottingham",
     "won": 1
    },
@@ -1864,22 +1877,9 @@
     "move": 0,
     "played": 7,
     "points": 4,
-    "position": 19,
+    "position": 20,
     "team": "Sunderland",
     "won": 1
-   },
-   {
-    "draw": 3,
-    "ga": 9,
-    "gd": -6,
-    "gf": 3,
-    "lost": 3,
-    "move": 0,
-    "played": 6,
-    "points": 3,
-    "position": 20,
-    "team": "Tottenham",
-    "won": 0
    }
   ]
  }
