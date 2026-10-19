@@ -91,22 +91,6 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 3,
-    "away": "Flamengo",
-    "date": "2026-10-18T21:30:00Z",
-    "hg": 0,
-    "home": "Bahia",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 2,
-    "away": "Bragantino",
-    "date": "2026-10-18T22:30:00Z",
-    "hg": 0,
-    "home": "Clube do Remo",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Vitória",
     "date": "2026-10-19T23:00:00Z",
@@ -222,19 +206,6 @@
     "won": 12
    },
    {
-    "draw": 7,
-    "ga": 35,
-    "gd": 4,
-    "gf": 39,
-    "lost": 12,
-    "move": 0,
-    "played": 31,
-    "points": 43,
-    "position": 9,
-    "team": "Bragantino",
-    "won": 12
-   },
-   {
     "draw": 6,
     "ga": 35,
     "gd": 1,
@@ -243,9 +214,22 @@
     "move": 0,
     "played": 31,
     "points": 42,
-    "position": 10,
+    "position": 9,
     "team": "São Paulo",
     "won": 12
+   },
+   {
+    "draw": 8,
+    "ga": 36,
+    "gd": 3,
+    "gf": 39,
+    "lost": 12,
+    "move": 0,
+    "played": 31,
+    "points": 41,
+    "position": 10,
+    "team": "Bragantino",
+    "won": 11
    },
    {
     "draw": 9,
@@ -352,14 +336,14 @@
     "won": 7
    },
    {
-    "draw": 10,
+    "draw": 11,
     "ga": 49,
-    "gd": -16,
-    "gf": 33,
-    "lost": 16,
+    "gd": -15,
+    "gf": 34,
+    "lost": 15,
     "move": 0,
     "played": 31,
-    "points": 25,
+    "points": 26,
     "position": 19,
     "team": "Clube do Remo",
     "won": 5
