@@ -8,98 +8,170 @@
   "last_round": [
    {
     "ag": 0,
-    "away": "Clube do Remo",
-    "date": "2026-10-10T21:00:00Z",
-    "hg": 0,
-    "home": "Vasco da Gama",
+    "away": "Internacional",
+    "date": "2026-10-16T23:00:00Z",
+    "hg": 2,
+    "home": "Mirassol",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Vitória",
-    "date": "2026-10-11T00:00:00Z",
-    "hg": 2,
-    "home": "São Paulo",
+    "ag": 0,
+    "away": "Chapecoense",
+    "date": "2026-10-17T21:00:00Z",
+    "hg": 1,
+    "home": "Botafogo",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Santos",
-    "date": "2026-10-11T19:00:00Z",
-    "hg": 2,
+    "ag": 0,
+    "away": "Coritiba",
+    "date": "2026-10-17T21:30:00Z",
+    "hg": 1,
     "home": "Mineiro",
     "status": "FINISHED"
    },
    {
-    "ag": 0,
-    "away": "Fluminense",
-    "date": "2026-10-11T20:30:00Z",
-    "hg": 1,
-    "home": "Flamengo",
+    "ag": 2,
+    "away": "Palmeiras",
+    "date": "2026-10-17T22:30:00Z",
+    "hg": 0,
+    "home": "Paranaense",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Internacional",
-    "date": "2026-10-11T20:30:00Z",
+    "ag": 0,
+    "away": "Vasco da Gama",
+    "date": "2026-10-18T00:00:00Z",
     "hg": 1,
+    "home": "São Paulo",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 2,
+    "away": "Santos",
+    "date": "2026-10-18T19:00:00Z",
+    "hg": 1,
+    "home": "Fluminense",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "Cruzeiro",
+    "date": "2026-10-18T19:00:00Z",
+    "hg": 2,
     "home": "Grêmio",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Corinthians",
-    "date": "2026-10-11T20:30:00Z",
-    "hg": 4,
-    "home": "Palmeiras",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Mirassol",
-    "date": "2026-10-11T22:30:00Z",
-    "hg": 1,
+    "ag": 3,
+    "away": "Flamengo",
+    "date": "2026-10-18T21:30:00Z",
+    "hg": 0,
     "home": "Bahia",
     "status": "FINISHED"
    },
    {
     "ag": 1,
-    "away": "Botafogo",
-    "date": "2026-10-12T19:00:00Z",
+    "away": "Bragantino",
+    "date": "2026-10-18T22:30:00Z",
     "hg": 1,
-    "home": "Coritiba",
+    "home": "Clube do Remo",
     "status": "FINISHED"
    },
-   {
-    "ag": 4,
-    "away": "Paranaense",
-    "date": "2026-10-12T22:30:00Z",
-    "hg": 1,
-    "home": "Chapecoense",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 2,
-    "away": "Cruzeiro",
-    "date": "2026-10-13T00:00:00Z",
-    "hg": 4,
-    "home": "Bragantino",
-    "status": "FINISHED"
-   }
-  ],
-  "matchday": 30,
-  "name": "Brasileirão Série A",
-  "next_round": [
    {
     "ag": 1,
     "away": "Vitória",
     "date": "2026-10-19T23:00:00Z",
-    "hg": 0,
+    "hg": 1,
     "home": "Corinthians",
-    "status": "PAUSED"
+    "status": "FINISHED"
    }
   ],
-  "settled": false,
+  "matchday": 31,
+  "name": "Brasileirão Série A",
+  "next_round": [
+   {
+    "ag": null,
+    "away": "Clube do Remo",
+    "date": "2026-10-23T23:00:00Z",
+    "hg": null,
+    "home": "Cruzeiro",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Botafogo",
+    "date": "2026-10-24T19:30:00Z",
+    "hg": null,
+    "home": "Internacional",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "São Paulo",
+    "date": "2026-10-24T19:30:00Z",
+    "hg": null,
+    "home": "Mirassol",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Paranaense",
+    "date": "2026-10-24T19:30:00Z",
+    "hg": null,
+    "home": "Vitória",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bragantino",
+    "date": "2026-10-24T21:30:00Z",
+    "hg": null,
+    "home": "Palmeiras",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Corinthians",
+    "date": "2026-10-24T21:30:00Z",
+    "hg": null,
+    "home": "Vasco da Gama",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Fluminense",
+    "date": "2026-10-24T22:30:00Z",
+    "hg": null,
+    "home": "Chapecoense",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bahia",
+    "date": "2026-10-25T01:00:00Z",
+    "hg": null,
+    "home": "Santos",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Grêmio",
+    "date": "2026-10-26T22:30:00Z",
+    "hg": null,
+    "home": "Coritiba",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Mineiro",
+    "date": "2026-10-26T23:00:00Z",
+    "hg": null,
+    "home": "Flamengo",
+    "status": "TIMED"
+   }
+  ],
+  "settled": true,
   "table": [
    {
     "draw": 7,
@@ -146,7 +218,7 @@
     "gd": 4,
     "gf": 50,
     "lost": 10,
-    "move": 0,
+    "move": 2,
     "played": 31,
     "points": 51,
     "position": 4,
@@ -159,7 +231,7 @@
     "gd": 10,
     "gf": 49,
     "lost": 8,
-    "move": 0,
+    "move": -1,
     "played": 31,
     "points": 51,
     "position": 5,
@@ -172,7 +244,7 @@
     "gd": 7,
     "gf": 42,
     "lost": 9,
-    "move": 0,
+    "move": 1,
     "played": 31,
     "points": 50,
     "position": 6,
@@ -185,7 +257,7 @@
     "gd": 5,
     "gf": 44,
     "lost": 8,
-    "move": 0,
+    "move": -2,
     "played": 31,
     "points": 49,
     "position": 7,
@@ -211,7 +283,7 @@
     "gd": 1,
     "gf": 36,
     "lost": 13,
-    "move": 0,
+    "move": 1,
     "played": 31,
     "points": 42,
     "position": 9,
@@ -224,24 +296,11 @@
     "gd": 3,
     "gf": 39,
     "lost": 12,
-    "move": 0,
+    "move": -1,
     "played": 31,
     "points": 41,
     "position": 10,
     "team": "Bragantino",
-    "won": 11
-   },
-   {
-    "draw": 6,
-    "ga": 44,
-    "gd": -10,
-    "gf": 34,
-    "lost": 14,
-    "move": 0,
-    "played": 31,
-    "points": 39,
-    "position": 11,
-    "team": "Vitória",
     "won": 11
    },
    {
@@ -250,10 +309,10 @@
     "gd": -4,
     "gf": 44,
     "lost": 12,
-    "move": 0,
+    "move": 2,
     "played": 31,
     "points": 39,
-    "position": 12,
+    "position": 11,
     "team": "Botafogo",
     "won": 10
    },
@@ -263,11 +322,24 @@
     "gd": -11,
     "gf": 38,
     "lost": 12,
-    "move": 0,
+    "move": -1,
     "played": 31,
     "points": 39,
-    "position": 13,
+    "position": 12,
     "team": "Coritiba",
+    "won": 10
+   },
+   {
+    "draw": 7,
+    "ga": 45,
+    "gd": -11,
+    "gf": 34,
+    "lost": 14,
+    "move": -1,
+    "played": 31,
+    "points": 37,
+    "position": 13,
+    "team": "Vitória",
     "won": 10
    },
    {
@@ -276,7 +348,7 @@
     "gd": -8,
     "gf": 36,
     "lost": 13,
-    "move": 0,
+    "move": 1,
     "played": 31,
     "points": 36,
     "position": 14,
@@ -289,7 +361,7 @@
     "gd": -7,
     "gf": 36,
     "lost": 13,
-    "move": 0,
+    "move": -1,
     "played": 30,
     "points": 35,
     "position": 15,
@@ -297,14 +369,14 @@
     "won": 9
    },
    {
-    "draw": 8,
+    "draw": 9,
     "ga": 39,
-    "gd": -8,
-    "gf": 31,
-    "lost": 15,
+    "gd": -7,
+    "gf": 32,
+    "lost": 14,
     "move": 0,
     "played": 31,
-    "points": 32,
+    "points": 33,
     "position": 16,
     "team": "Corinthians",
     "won": 8
