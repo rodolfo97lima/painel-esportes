@@ -92,62 +92,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Clube do Remo",
-    "date": "2026-10-23T23:00:00Z",
-    "hg": null,
-    "home": "Cruzeiro",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Botafogo",
-    "date": "2026-10-24T19:30:00Z",
-    "hg": null,
-    "home": "Internacional",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "São Paulo",
-    "date": "2026-10-24T19:30:00Z",
-    "hg": null,
-    "home": "Mirassol",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Paranaense",
-    "date": "2026-10-24T19:30:00Z",
-    "hg": null,
-    "home": "Vitória",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Bragantino",
-    "date": "2026-10-24T21:30:00Z",
-    "hg": null,
-    "home": "Palmeiras",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Corinthians",
-    "date": "2026-10-24T21:30:00Z",
-    "hg": null,
-    "home": "Vasco da Gama",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Fluminense",
-    "date": "2026-10-24T22:30:00Z",
-    "hg": null,
-    "home": "Chapecoense",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Bahia",
     "date": "2026-10-25T01:00:00Z",
     "hg": null,
