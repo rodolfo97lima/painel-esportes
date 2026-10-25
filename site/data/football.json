@@ -144,7 +144,7 @@
     "date": "2026-10-25T01:00:00Z",
     "hg": null,
     "home": "Santos",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -218,14 +218,14 @@
     "won": 15
    },
    {
-    "draw": 10,
-    "ga": 40,
-    "gd": 10,
+    "draw": 9,
+    "ga": 41,
+    "gd": 9,
     "gf": 50,
-    "lost": 8,
+    "lost": 9,
     "move": -1,
     "played": 32,
-    "points": 52,
+    "points": 51,
     "position": 5,
     "team": "Fluminense",
     "won": 14
@@ -244,27 +244,27 @@
     "won": 14
    },
    {
-    "draw": 10,
-    "ga": 39,
+    "draw": 11,
+    "ga": 40,
     "gd": 5,
-    "gf": 44,
+    "gf": 45,
     "lost": 8,
     "move": -2,
-    "played": 31,
-    "points": 49,
+    "played": 32,
+    "points": 50,
     "position": 7,
     "team": "Bahia",
     "won": 13
    },
    {
-    "draw": 9,
-    "ga": 46,
+    "draw": 10,
+    "ga": 47,
     "gd": 2,
-    "gf": 48,
+    "gf": 49,
     "lost": 10,
     "move": 0,
-    "played": 31,
-    "points": 45,
+    "played": 32,
+    "points": 46,
     "position": 8,
     "team": "Santos",
     "won": 12
@@ -323,14 +323,27 @@
    },
    {
     "draw": 8,
+    "ga": 45,
+    "gd": -6,
+    "gf": 39,
+    "lost": 13,
+    "move": 1,
+    "played": 31,
+    "points": 38,
+    "position": 13,
+    "team": "Vasco da Gama",
+    "won": 10
+   },
+   {
+    "draw": 8,
     "ga": 46,
     "gd": -11,
     "gf": 35,
     "lost": 14,
-    "move": -1,
+    "move": -2,
     "played": 32,
     "points": 38,
-    "position": 13,
+    "position": 14,
     "team": "Vitória",
     "won": 10
    },
@@ -340,37 +353,11 @@
     "gd": -8,
     "gf": 37,
     "lost": 13,
-    "move": 1,
+    "move": 0,
     "played": 32,
     "points": 37,
-    "position": 14,
-    "team": "Mirassol",
-    "won": 9
-   },
-   {
-    "draw": 9,
-    "ga": 40,
-    "gd": -6,
-    "gf": 34,
-    "lost": 14,
-    "move": 1,
-    "played": 32,
-    "points": 36,
     "position": 15,
-    "team": "Corinthians",
-    "won": 9
-   },
-   {
-    "draw": 8,
-    "ga": 45,
-    "gd": -8,
-    "gf": 37,
-    "lost": 14,
-    "move": -2,
-    "played": 31,
-    "points": 35,
-    "position": 16,
-    "team": "Vasco da Gama",
+    "team": "Mirassol",
     "won": 9
    },
    {
@@ -379,11 +366,24 @@
     "gd": -4,
     "gf": 36,
     "lost": 13,
-    "move": 0,
+    "move": 1,
     "played": 32,
     "points": 35,
-    "position": 17,
+    "position": 16,
     "team": "Internacional",
+    "won": 8
+   },
+   {
+    "draw": 9,
+    "ga": 42,
+    "gd": -8,
+    "gf": 34,
+    "lost": 15,
+    "move": -1,
+    "played": 32,
+    "points": 33,
+    "position": 17,
+    "team": "Corinthians",
     "won": 8
    },
    {
@@ -413,17 +413,17 @@
     "won": 5
    },
    {
-    "draw": 10,
+    "draw": 9,
     "ga": 63,
-    "gd": -32,
-    "gf": 31,
+    "gd": -31,
+    "gf": 32,
     "lost": 18,
     "move": 0,
     "played": 31,
-    "points": 19,
+    "points": 21,
     "position": 20,
     "team": "Chapecoense",
-    "won": 3
+    "won": 4
    }
   ]
  },
@@ -1743,38 +1743,6 @@
   "matchday": 7,
   "name": "Premier League",
   "next_round": [
-   {
-    "ag": null,
-    "away": "Man City",
-    "date": "2026-10-24T11:30:00Z",
-    "hg": null,
-    "home": "Aston Villa",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
-    "away": "Everton",
-    "date": "2026-10-24T14:00:00Z",
-    "hg": null,
-    "home": "Arsenal",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Fulham",
-    "date": "2026-10-24T14:00:00Z",
-    "hg": null,
-    "home": "Coventry City",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Tottenham",
-    "date": "2026-10-24T16:30:00Z",
-    "hg": null,
-    "home": "Chelsea",
-    "status": "TIMED"
-   },
    {
     "ag": null,
     "away": "Brighton Hove",
