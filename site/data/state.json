@@ -217,8 +217,30 @@
    }
   },
   "PL": {
-   "matchday": 7,
+   "matchday": 8,
    "table_cur": {
+    "Arsenal": 2,
+    "Aston Villa": 9,
+    "Bournemouth": 13,
+    "Brentford": 6,
+    "Brighton Hove": 3,
+    "Chelsea": 5,
+    "Coventry City": 19,
+    "Crystal Palace": 17,
+    "Everton": 11,
+    "Fulham": 15,
+    "Hull City": 10,
+    "Ipswich Town": 12,
+    "Leeds United": 7,
+    "Liverpool": 4,
+    "Man City": 1,
+    "Man United": 16,
+    "Newcastle": 8,
+    "Nottingham": 18,
+    "Sunderland": 20,
+    "Tottenham": 14
+   },
+   "table_prev": {
     "Arsenal": 2,
     "Aston Villa": 12,
     "Bournemouth": 15,
@@ -239,28 +261,6 @@
     "Nottingham": 19,
     "Sunderland": 20,
     "Tottenham": 16
-   },
-   "table_prev": {
-    "Arsenal": 2,
-    "Aston Villa": 16,
-    "Bournemouth": 18,
-    "Brentford": 4,
-    "Brighton Hove": 3,
-    "Chelsea": 6,
-    "Coventry City": 14,
-    "Crystal Palace": 12,
-    "Everton": 5,
-    "Fulham": 20,
-    "Hull City": 8,
-    "Ipswich Town": 10,
-    "Leeds United": 7,
-    "Liverpool": 9,
-    "Man City": 1,
-    "Man United": 13,
-    "Newcastle": 11,
-    "Nottingham": 15,
-    "Sunderland": 17,
-    "Tottenham": 19
    }
   }
  }
