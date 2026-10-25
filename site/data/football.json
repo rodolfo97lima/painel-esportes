@@ -1270,14 +1270,6 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": 1,
-    "away": "Real Madrid",
-    "date": "2026-10-25T20:00:00Z",
-    "hg": 0,
-    "home": "Barça",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Osasuna",
     "date": "2026-10-26T20:00:00Z",
@@ -1290,9 +1282,9 @@
   "table": [
    {
     "draw": 0,
-    "ga": 10,
+    "ga": 11,
     "gd": 29,
-    "gf": 39,
+    "gf": 40,
     "lost": 1,
     "move": 0,
     "played": 10,
@@ -1316,9 +1308,9 @@
    },
    {
     "draw": 0,
-    "ga": 9,
+    "ga": 10,
     "gd": 15,
-    "gf": 24,
+    "gf": 25,
     "lost": 2,
     "move": 1,
     "played": 10,

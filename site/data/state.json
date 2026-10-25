@@ -25,9 +25,46 @@
    "TSU": 20,
    "VER": 4
   },
-  "drivers_prev": null,
-  "round": 17,
+  "drivers_prev": {
+   "ALB": 19,
+   "ALO": 17,
+   "ANT": 1,
+   "BEA": 13,
+   "BOR": 15,
+   "BOT": 22,
+   "COL": 12,
+   "GAS": 10,
+   "HAD": 8,
+   "HAM": 3,
+   "HUL": 14,
+   "LAW": 9,
+   "LEC": 5,
+   "LIN": 11,
+   "NOR": 6,
+   "OCO": 16,
+   "PER": 23,
+   "PIA": 7,
+   "RUS": 2,
+   "SAI": 18,
+   "STR": 21,
+   "TSU": 20,
+   "VER": 4
+  },
+  "round": 18,
   "teams_cur": {
+   "Alpine F1 Team": 6,
+   "Aston Martin": 10,
+   "Audi": 8,
+   "Cadillac F1 Team": 11,
+   "Ferrari": 2,
+   "Haas F1 Team": 7,
+   "McLaren": 4,
+   "Mercedes": 1,
+   "RB F1 Team": 5,
+   "Red Bull": 3,
+   "Williams": 9
+  },
+  "teams_prev": {
    "Alpine F1 Team": 6,
    "Aston Martin": 10,
    "Audi": 8,
@@ -39,8 +76,7 @@
    "RB F1 Team": 5,
    "Red Bull": 4,
    "Williams": 9
-  },
-  "teams_prev": null
+  }
  },
  "football": {
   "BSA": {
