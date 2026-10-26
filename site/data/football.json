@@ -1254,44 +1254,12 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": null,
-    "away": "Getafe",
-    "date": "2026-10-25T13:00:00Z",
-    "hg": null,
-    "home": "Athletic",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Real Betis",
-    "date": "2026-10-25T15:15:00Z",
-    "hg": null,
-    "home": "Celta",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Levante",
-    "date": "2026-10-25T17:30:00Z",
-    "hg": null,
-    "home": "Real Sociedad",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Real Madrid",
-    "date": "2026-10-25T20:00:00Z",
-    "hg": null,
-    "home": "Barça",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
+    "ag": 0,
     "away": "Osasuna",
     "date": "2026-10-26T20:00:00Z",
-    "hg": null,
+    "hg": 1,
     "home": "Sevilla FC",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    }
   ],
   "settled": false,
@@ -1364,15 +1332,15 @@
    {
     "draw": 2,
     "ga": 16,
-    "gd": -2,
-    "gf": 14,
+    "gd": -1,
+    "gf": 15,
     "lost": 3,
     "move": -1,
-    "played": 9,
-    "points": 14,
+    "played": 10,
+    "points": 17,
     "position": 6,
     "team": "Sevilla FC",
-    "won": 4
+    "won": 5
    },
    {
     "draw": 3,
@@ -1441,12 +1409,12 @@
    },
    {
     "draw": 2,
-    "ga": 18,
-    "gd": -8,
+    "ga": 19,
+    "gd": -9,
     "gf": 10,
-    "lost": 4,
+    "lost": 5,
     "move": 4,
-    "played": 9,
+    "played": 10,
     "points": 11,
     "position": 12,
     "team": "Osasuna",
