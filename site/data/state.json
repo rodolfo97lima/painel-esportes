@@ -80,8 +80,30 @@
  },
  "football": {
   "BSA": {
-   "matchday": 31,
+   "matchday": 32,
    "table_cur": {
+    "Bahia": 7,
+    "Botafogo": 11,
+    "Bragantino": 10,
+    "Chapecoense": 20,
+    "Clube do Remo": 19,
+    "Corinthians": 18,
+    "Coritiba": 12,
+    "Cruzeiro": 3,
+    "Flamengo": 1,
+    "Fluminense": 5,
+    "Grêmio": 17,
+    "Internacional": 16,
+    "Mineiro": 6,
+    "Mirassol": 15,
+    "Palmeiras": 2,
+    "Paranaense": 4,
+    "Santos": 8,
+    "São Paulo": 9,
+    "Vasco da Gama": 13,
+    "Vitória": 14
+   },
+   "table_prev": {
     "Bahia": 7,
     "Botafogo": 11,
     "Bragantino": 10,
@@ -102,28 +124,6 @@
     "São Paulo": 9,
     "Vasco da Gama": 15,
     "Vitória": 13
-   },
-   "table_prev": {
-    "Bahia": 5,
-    "Botafogo": 13,
-    "Bragantino": 9,
-    "Chapecoense": 20,
-    "Clube do Remo": 19,
-    "Corinthians": 16,
-    "Coritiba": 11,
-    "Cruzeiro": 6,
-    "Flamengo": 1,
-    "Fluminense": 4,
-    "Grêmio": 18,
-    "Internacional": 17,
-    "Mineiro": 7,
-    "Mirassol": 15,
-    "Palmeiras": 2,
-    "Paranaense": 3,
-    "Santos": 8,
-    "São Paulo": 10,
-    "Vasco da Gama": 14,
-    "Vitória": 12
    }
   },
   "CL": {
