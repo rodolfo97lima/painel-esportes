@@ -99,22 +99,6 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 0,
-    "away": "São Paulo",
-    "date": "2026-10-29T00:30:00Z",
-    "hg": 2,
-    "home": "Bahia",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": 0,
-    "away": "Botafogo",
-    "date": "2026-10-29T00:30:00Z",
-    "hg": 1,
-    "home": "Clube do Remo",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Cruzeiro",
     "date": "2026-10-29T22:30:00Z",
@@ -224,9 +208,9 @@
    },
    {
     "draw": 11,
-    "ga": 40,
-    "gd": 7,
-    "gf": 47,
+    "ga": 42,
+    "gd": 6,
+    "gf": 48,
     "lost": 8,
     "move": 1,
     "played": 33,
@@ -276,9 +260,9 @@
    },
    {
     "draw": 7,
-    "ga": 38,
-    "gd": -1,
-    "gf": 37,
+    "ga": 39,
+    "gd": 0,
+    "gf": 39,
     "lost": 14,
     "move": -1,
     "played": 33,
@@ -289,9 +273,9 @@
    },
    {
     "draw": 9,
-    "ga": 52,
+    "ga": 53,
     "gd": -8,
-    "gf": 44,
+    "gf": 45,
     "lost": 14,
     "move": 0,
     "played": 33,
@@ -393,9 +377,9 @@
    },
    {
     "draw": 11,
-    "ga": 50,
+    "ga": 51,
     "gd": -15,
-    "gf": 35,
+    "gf": 36,
     "lost": 16,
     "move": 0,
     "played": 33,
