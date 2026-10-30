@@ -6,7 +6,7 @@
    "zebras": [
     {
      "loser": "Fluminense",
-     "loser_pos": 5,
+     "loser_pos": 4,
      "score": "2-1",
      "winner": "Chapecoense",
      "winner_pos": 20
@@ -99,14 +99,6 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Paranaense",
-    "date": "2026-10-30T00:30:00Z",
-    "hg": 0,
-    "home": "Grêmio",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Mirassol",
     "date": "2026-10-30T23:00:00Z",
@@ -165,29 +157,29 @@
     "won": 17
    },
    {
-    "draw": 10,
-    "ga": 38,
-    "gd": 12,
-    "gf": 50,
-    "lost": 8,
-    "move": -1,
-    "played": 33,
-    "points": 55,
-    "position": 4,
-    "team": "Paranaense",
-    "won": 15
-   },
-   {
     "draw": 9,
     "ga": 42,
     "gd": 10,
     "gf": 52,
     "lost": 9,
-    "move": 0,
+    "move": 1,
+    "played": 33,
+    "points": 54,
+    "position": 4,
+    "team": "Fluminense",
+    "won": 15
+   },
+   {
+    "draw": 9,
+    "ga": 40,
+    "gd": 10,
+    "gf": 50,
+    "lost": 9,
+    "move": -2,
     "played": 33,
     "points": 54,
     "position": 5,
-    "team": "Fluminense",
+    "team": "Paranaense",
     "won": 15
    },
    {
@@ -309,14 +301,27 @@
    },
    {
     "draw": 10,
+    "ga": 44,
+    "gd": -7,
+    "gf": 37,
+    "lost": 14,
+    "move": 3,
+    "played": 33,
+    "points": 37,
+    "position": 15,
+    "team": "Grêmio",
+    "won": 9
+   },
+   {
+    "draw": 10,
     "ga": 45,
     "gd": -8,
     "gf": 37,
     "lost": 13,
-    "move": -1,
+    "move": -2,
     "played": 32,
     "points": 37,
-    "position": 15,
+    "position": 16,
     "team": "Mirassol",
     "won": 9
    },
@@ -326,24 +331,11 @@
     "gd": -5,
     "gf": 37,
     "lost": 14,
-    "move": 1,
-    "played": 33,
-    "points": 35,
-    "position": 16,
-    "team": "Internacional",
-    "won": 8
-   },
-   {
-    "draw": 11,
-    "ga": 44,
-    "gd": -9,
-    "gf": 35,
-    "lost": 14,
-    "move": 1,
+    "move": 0,
     "played": 33,
     "points": 35,
     "position": 17,
-    "team": "Grêmio",
+    "team": "Internacional",
     "won": 8
    },
    {
