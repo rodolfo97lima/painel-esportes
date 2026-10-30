@@ -99,28 +99,12 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": null,
-    "away": "Cruzeiro",
-    "date": "2026-10-29T22:30:00Z",
-    "hg": null,
-    "home": "Mineiro",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Flamengo",
-    "date": "2026-10-29T23:00:00Z",
-    "hg": null,
-    "home": "Vasco da Gama",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
+    "ag": 0,
     "away": "Paranaense",
     "date": "2026-10-30T00:30:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Grêmio",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -143,16 +127,16 @@
   "table": [
    {
     "draw": 7,
-    "ga": 27,
-    "gd": 37,
-    "gf": 64,
+    "ga": 28,
+    "gd": 40,
+    "gf": 68,
     "lost": 4,
     "move": 0,
-    "played": 32,
-    "points": 70,
+    "played": 33,
+    "points": 73,
     "position": 1,
     "team": "Flamengo",
-    "won": 21
+    "won": 22
    },
    {
     "draw": 10,
@@ -170,25 +154,25 @@
    {
     "draw": 6,
     "ga": 46,
-    "gd": 5,
-    "gf": 51,
+    "gd": 6,
+    "gf": 52,
     "lost": 10,
     "move": 1,
-    "played": 32,
-    "points": 54,
+    "played": 33,
+    "points": 57,
     "position": 3,
     "team": "Cruzeiro",
-    "won": 16
+    "won": 17
    },
    {
-    "draw": 9,
+    "draw": 10,
     "ga": 38,
     "gd": 12,
     "gf": 50,
     "lost": 8,
     "move": -1,
-    "played": 32,
-    "points": 54,
+    "played": 33,
+    "points": 55,
     "position": 4,
     "team": "Paranaense",
     "won": 15
@@ -221,12 +205,12 @@
    },
    {
     "draw": 8,
-    "ga": 38,
-    "gd": 6,
+    "ga": 39,
+    "gd": 5,
     "gf": 44,
-    "lost": 10,
+    "lost": 11,
     "move": -1,
-    "played": 32,
+    "played": 33,
     "points": 50,
     "position": 7,
     "team": "Mineiro",
@@ -299,12 +283,12 @@
    },
    {
     "draw": 8,
-    "ga": 45,
-    "gd": -6,
-    "gf": 39,
-    "lost": 13,
+    "ga": 49,
+    "gd": -9,
+    "gf": 40,
+    "lost": 14,
     "move": 2,
-    "played": 31,
+    "played": 32,
     "points": 38,
     "position": 13,
     "team": "Vasco da Gama",
@@ -350,14 +334,14 @@
     "won": 8
    },
    {
-    "draw": 10,
+    "draw": 11,
     "ga": 44,
     "gd": -9,
     "gf": 35,
     "lost": 14,
     "move": 1,
-    "played": 32,
-    "points": 34,
+    "played": 33,
+    "points": 35,
     "position": 17,
     "team": "Grêmio",
     "won": 8
