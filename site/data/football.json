@@ -1703,12 +1703,12 @@
   "name": "Premier League",
   "next_round": [
    {
-    "ag": null,
+    "ag": 0,
     "away": "Man United",
     "date": "2026-10-31T12:30:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Chelsea",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -1783,7 +1783,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": true,
+  "settled": false,
   "table": [
    {
     "draw": 0,
@@ -1838,14 +1838,14 @@
     "won": 4
    },
    {
-    "draw": 1,
+    "draw": 2,
     "ga": 15,
     "gd": 2,
     "gf": 17,
     "lost": 3,
     "move": -1,
-    "played": 8,
-    "points": 13,
+    "played": 9,
+    "points": 14,
     "position": 5,
     "team": "Chelsea",
     "won": 4
@@ -1981,14 +1981,14 @@
     "won": 2
    },
    {
-    "draw": 4,
+    "draw": 5,
     "ga": 13,
     "gd": -3,
     "gf": 10,
     "lost": 3,
     "move": -3,
-    "played": 8,
-    "points": 7,
+    "played": 9,
+    "points": 8,
     "position": 16,
     "team": "Man United",
     "won": 1
