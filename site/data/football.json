@@ -100,14 +100,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Mirassol",
-    "date": "2026-10-30T23:00:00Z",
-    "hg": null,
-    "home": "Corinthians",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Vitória",
     "date": "2026-10-31T19:00:00Z",
     "hg": null,
@@ -314,15 +306,28 @@
    },
    {
     "draw": 10,
-    "ga": 45,
-    "gd": -8,
+    "ga": 47,
+    "gd": -10,
     "gf": 37,
-    "lost": 13,
+    "lost": 14,
     "move": -2,
-    "played": 32,
+    "played": 33,
     "points": 37,
     "position": 16,
     "team": "Mirassol",
+    "won": 9
+   },
+   {
+    "draw": 9,
+    "ga": 42,
+    "gd": -6,
+    "gf": 36,
+    "lost": 15,
+    "move": -1,
+    "played": 33,
+    "points": 36,
+    "position": 17,
+    "team": "Corinthians",
     "won": 9
    },
    {
@@ -331,24 +336,11 @@
     "gd": -5,
     "gf": 37,
     "lost": 14,
-    "move": 0,
+    "move": -1,
     "played": 33,
     "points": 35,
-    "position": 17,
-    "team": "Internacional",
-    "won": 8
-   },
-   {
-    "draw": 9,
-    "ga": 42,
-    "gd": -8,
-    "gf": 34,
-    "lost": 15,
-    "move": -2,
-    "played": 32,
-    "points": 33,
     "position": 18,
-    "team": "Corinthians",
+    "team": "Internacional",
     "won": 8
    },
    {
