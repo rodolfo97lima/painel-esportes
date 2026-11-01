@@ -5,109 +5,181 @@
    "goleadas": [],
    "zebras": [
     {
-     "loser": "Fluminense",
-     "loser_pos": 4,
-     "score": "2-1",
-     "winner": "Chapecoense",
-     "winner_pos": 20
+     "loser": "Paranaense",
+     "loser_pos": 5,
+     "score": "2-0",
+     "winner": "Grêmio",
+     "winner_pos": 15
     }
    ]
   },
   "last_round": [
    {
     "ag": 0,
-    "away": "Clube do Remo",
-    "date": "2026-10-23T23:00:00Z",
-    "hg": 1,
-    "home": "Cruzeiro",
+    "away": "Chapecoense",
+    "date": "2026-10-28T22:30:00Z",
+    "hg": 3,
+    "home": "Bragantino",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 1,
+    "away": "Internacional",
+    "date": "2026-10-28T22:30:00Z",
+    "hg": 2,
+    "home": "Fluminense",
     "status": "FINISHED"
    },
    {
     "ag": 0,
-    "away": "Botafogo",
-    "date": "2026-10-24T19:30:00Z",
-    "hg": 3,
-    "home": "Internacional",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "São Paulo",
-    "date": "2026-10-24T19:30:00Z",
-    "hg": 1,
-    "home": "Mirassol",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Paranaense",
-    "date": "2026-10-24T19:30:00Z",
-    "hg": 1,
-    "home": "Vitória",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Bragantino",
-    "date": "2026-10-24T21:30:00Z",
-    "hg": 2,
-    "home": "Palmeiras",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 2,
-    "away": "Corinthians",
-    "date": "2026-10-24T21:30:00Z",
-    "hg": 3,
-    "home": "Vasco da Gama",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Fluminense",
-    "date": "2026-10-24T22:30:00Z",
-    "hg": 2,
-    "home": "Chapecoense",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Bahia",
-    "date": "2026-10-25T01:00:00Z",
-    "hg": 1,
+    "away": "Palmeiras",
+    "date": "2026-10-28T22:30:00Z",
+    "hg": 0,
     "home": "Santos",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Grêmio",
-    "date": "2026-10-26T22:30:00Z",
-    "hg": 0,
-    "home": "Coritiba",
+    "ag": 2,
+    "away": "São Paulo",
+    "date": "2026-10-29T00:30:00Z",
+    "hg": 3,
+    "home": "Bahia",
     "status": "FINISHED"
    },
    {
-    "ag": 2,
-    "away": "Mineiro",
-    "date": "2026-10-26T23:00:00Z",
-    "hg": 3,
-    "home": "Flamengo",
+    "ag": 1,
+    "away": "Botafogo",
+    "date": "2026-10-29T00:30:00Z",
+    "hg": 2,
+    "home": "Clube do Remo",
     "status": "FINISHED"
-   }
-  ],
-  "matchday": 32,
-  "name": "Brasileirão Série A",
-  "next_round": [
+   },
+   {
+    "ag": 1,
+    "away": "Cruzeiro",
+    "date": "2026-10-29T22:30:00Z",
+    "hg": 0,
+    "home": "Mineiro",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 4,
+    "away": "Flamengo",
+    "date": "2026-10-29T23:00:00Z",
+    "hg": 1,
+    "home": "Vasco da Gama",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Paranaense",
+    "date": "2026-10-30T00:30:00Z",
+    "hg": 2,
+    "home": "Grêmio",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Mirassol",
+    "date": "2026-10-30T23:00:00Z",
+    "hg": 2,
+    "home": "Corinthians",
+    "status": "FINISHED"
+   },
    {
     "ag": 0,
     "away": "Vitória",
     "date": "2026-10-31T19:00:00Z",
-    "hg": 0,
+    "hg": 2,
     "home": "Coritiba",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
    }
   ],
-  "settled": false,
+  "matchday": 33,
+  "name": "Brasileirão Série A",
+  "next_round": [
+   {
+    "ag": null,
+    "away": "Santos",
+    "date": "2026-11-02T23:00:00Z",
+    "hg": null,
+    "home": "Bragantino",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Mirassol",
+    "date": "2026-11-03T22:30:00Z",
+    "hg": null,
+    "home": "Chapecoense",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Coritiba",
+    "date": "2026-11-04T00:30:00Z",
+    "hg": null,
+    "home": "Internacional",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Vasco da Gama",
+    "date": "2026-11-04T22:30:00Z",
+    "hg": null,
+    "home": "Paranaense",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Grêmio",
+    "date": "2026-11-04T22:30:00Z",
+    "hg": null,
+    "home": "Flamengo",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Mineiro",
+    "date": "2026-11-05T00:30:00Z",
+    "hg": null,
+    "home": "Botafogo",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Corinthians",
+    "date": "2026-11-05T00:30:00Z",
+    "hg": null,
+    "home": "São Paulo",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Clube do Remo",
+    "date": "2026-11-05T22:30:00Z",
+    "hg": null,
+    "home": "Palmeiras",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bahia",
+    "date": "2026-11-06T00:30:00Z",
+    "hg": null,
+    "home": "Cruzeiro",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Fluminense",
+    "date": "2026-11-06T23:00:00Z",
+    "hg": null,
+    "home": "Vitória",
+    "status": "TIMED"
+   }
+  ],
+  "settled": true,
   "table": [
    {
     "draw": 7,
@@ -141,7 +213,7 @@
     "gd": 6,
     "gf": 52,
     "lost": 10,
-    "move": 1,
+    "move": 0,
     "played": 33,
     "points": 57,
     "position": 3,
@@ -167,7 +239,7 @@
     "gd": 10,
     "gf": 50,
     "lost": 9,
-    "move": -2,
+    "move": -1,
     "played": 33,
     "points": 54,
     "position": 5,
@@ -240,17 +312,17 @@
     "won": 12
    },
    {
-    "draw": 10,
+    "draw": 9,
     "ga": 50,
-    "gd": -12,
-    "gf": 38,
+    "gd": -10,
+    "gf": 40,
     "lost": 13,
     "move": 1,
     "played": 33,
-    "points": 40,
+    "points": 42,
     "position": 11,
     "team": "Coritiba",
-    "won": 10
+    "won": 11
    },
    {
     "draw": 9,
@@ -266,29 +338,29 @@
     "won": 10
    },
    {
-    "draw": 9,
-    "ga": 46,
-    "gd": -11,
-    "gf": 35,
-    "lost": 14,
-    "move": 0,
-    "played": 33,
-    "points": 39,
-    "position": 13,
-    "team": "Vitória",
-    "won": 10
-   },
-   {
     "draw": 8,
     "ga": 49,
     "gd": -9,
     "gf": 40,
     "lost": 14,
-    "move": 1,
+    "move": 0,
     "played": 32,
     "points": 38,
-    "position": 14,
+    "position": 13,
     "team": "Vasco da Gama",
+    "won": 10
+   },
+   {
+    "draw": 8,
+    "ga": 48,
+    "gd": -13,
+    "gf": 35,
+    "lost": 15,
+    "move": 0,
+    "played": 33,
+    "points": 38,
+    "position": 14,
+    "team": "Vitória",
     "won": 10
    },
    {
@@ -297,7 +369,7 @@
     "gd": -7,
     "gf": 37,
     "lost": 14,
-    "move": 3,
+    "move": 2,
     "played": 33,
     "points": 37,
     "position": 15,
@@ -310,7 +382,7 @@
     "gd": -10,
     "gf": 37,
     "lost": 14,
-    "move": -2,
+    "move": -1,
     "played": 33,
     "points": 37,
     "position": 16,
@@ -323,7 +395,7 @@
     "gd": -6,
     "gf": 36,
     "lost": 15,
-    "move": -1,
+    "move": 1,
     "played": 33,
     "points": 36,
     "position": 17,
@@ -336,7 +408,7 @@
     "gd": -5,
     "gf": 37,
     "lost": 14,
-    "move": -1,
+    "move": -2,
     "played": 33,
     "points": 35,
     "position": 18,
@@ -1260,22 +1332,6 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": 1,
-    "away": "Málaga",
-    "date": "2026-10-31T17:30:00Z",
-    "hg": 2,
-    "home": "Real Betis",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
-    "away": "Alavés",
-    "date": "2026-10-31T20:00:00Z",
-    "hg": null,
-    "home": "Barça",
-    "status": "TIMED"
-   },
-   {
     "ag": null,
     "away": "Sevilla FC",
     "date": "2026-11-01T13:00:00Z",
@@ -1319,29 +1375,29 @@
   "settled": false,
   "table": [
    {
+    "draw": 0,
+    "ga": 12,
+    "gd": 34,
+    "gf": 46,
+    "lost": 1,
+    "move": 0,
+    "played": 11,
+    "points": 30,
+    "position": 1,
+    "team": "Barça",
+    "won": 10
+   },
+   {
     "draw": 1,
     "ga": 8,
     "gd": 14,
     "gf": 22,
     "lost": 1,
-    "move": 1,
+    "move": 0,
     "played": 11,
     "points": 28,
-    "position": 1,
-    "team": "Atleti",
-    "won": 9
-   },
-   {
-    "draw": 0,
-    "ga": 11,
-    "gd": 29,
-    "gf": 40,
-    "lost": 1,
-    "move": -1,
-    "played": 10,
-    "points": 27,
     "position": 2,
-    "team": "Barça",
+    "team": "Atleti",
     "won": 9
    },
    {
@@ -1398,27 +1454,14 @@
    },
    {
     "draw": 3,
-    "ga": 11,
-    "gd": 3,
-    "gf": 14,
-    "lost": 4,
-    "move": 0,
-    "played": 10,
-    "points": 12,
-    "position": 7,
-    "team": "Alavés",
-    "won": 3
-   },
-   {
-    "draw": 3,
     "ga": 9,
     "gd": 3,
     "gf": 12,
     "lost": 3,
-    "move": 3,
+    "move": 4,
     "played": 9,
     "points": 12,
-    "position": 8,
+    "position": 7,
     "team": "Athletic",
     "won": 3
    },
@@ -1428,10 +1471,10 @@
     "gd": 0,
     "gf": 15,
     "lost": 5,
-    "move": 3,
+    "move": 4,
     "played": 11,
     "points": 12,
-    "position": 9,
+    "position": 8,
     "team": "Villarreal",
     "won": 3
    },
@@ -1441,12 +1484,25 @@
     "gd": 0,
     "gf": 10,
     "lost": 3,
-    "move": -2,
+    "move": -1,
+    "played": 11,
+    "points": 12,
+    "position": 9,
+    "team": "Celta",
+    "won": 2
+   },
+   {
+    "draw": 3,
+    "ga": 17,
+    "gd": -2,
+    "gf": 15,
+    "lost": 5,
+    "move": -3,
     "played": 11,
     "points": 12,
     "position": 10,
-    "team": "Celta",
-    "won": 2
+    "team": "Alavés",
+    "won": 3
    },
    {
     "draw": 3,
@@ -1590,7 +1646,7 @@
      "loser_pos": 1,
      "score": "2-1",
      "winner": "Aston Villa",
-     "winner_pos": 12
+     "winner_pos": 9
     }
    ]
   },
@@ -1681,70 +1737,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Man United",
-    "date": "2026-10-31T12:30:00Z",
-    "hg": null,
-    "home": "Chelsea",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Brighton Hove",
-    "date": "2026-10-31T15:00:00Z",
-    "hg": null,
-    "home": "Man City",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Leeds United",
-    "date": "2026-10-31T15:00:00Z",
-    "hg": null,
-    "home": "Bournemouth",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Sunderland",
-    "date": "2026-10-31T15:00:00Z",
-    "hg": null,
-    "home": "Coventry City",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Ipswich Town",
-    "date": "2026-10-31T15:00:00Z",
-    "hg": null,
-    "home": "Hull City",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Nottingham",
-    "date": "2026-10-31T15:00:00Z",
-    "hg": null,
-    "home": "Brentford",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Crystal Palace",
-    "date": "2026-10-31T17:30:00Z",
-    "hg": null,
-    "home": "Tottenham",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Fulham",
-    "date": "2026-10-31T20:00:00Z",
-    "hg": null,
-    "home": "Aston Villa",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Arsenal",
     "date": "2026-11-01T16:30:00Z",
     "hg": null,
@@ -1760,7 +1752,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": true,
+  "settled": false,
   "table": [
    {
     "draw": 0,
@@ -1867,15 +1859,28 @@
     "won": 3
    },
    {
+    "draw": 3,
+    "ga": 13,
+    "gd": -3,
+    "gf": 10,
+    "lost": 3,
+    "move": 3,
+    "played": 9,
+    "points": 12,
+    "position": 9,
+    "team": "Aston Villa",
+    "won": 3
+   },
+   {
     "draw": 5,
     "ga": 10,
     "gd": 1,
     "gf": 11,
     "lost": 2,
-    "move": 0,
+    "move": -1,
     "played": 9,
     "points": 11,
-    "position": 9,
+    "position": 10,
     "team": "Hull City",
     "won": 2
    },
@@ -1885,10 +1890,10 @@
     "gd": 1,
     "gf": 9,
     "lost": 2,
-    "move": -3,
+    "move": -4,
     "played": 9,
     "points": 11,
-    "position": 10,
+    "position": 11,
     "team": "Leeds United",
     "won": 2
    },
@@ -1898,24 +1903,11 @@
     "gd": -2,
     "gf": 12,
     "lost": 3,
-    "move": 0,
-    "played": 8,
-    "points": 11,
-    "position": 11,
-    "team": "Newcastle",
-    "won": 3
-   },
-   {
-    "draw": 2,
-    "ga": 12,
-    "gd": -3,
-    "gf": 9,
-    "lost": 3,
-    "move": 0,
+    "move": -1,
     "played": 8,
     "points": 11,
     "position": 12,
-    "team": "Aston Villa",
+    "team": "Newcastle",
     "won": 3
    },
    {
@@ -1945,30 +1937,30 @@
     "won": 2
    },
    {
+    "draw": 3,
+    "ga": 11,
+    "gd": -2,
+    "gf": 9,
+    "lost": 4,
+    "move": 3,
+    "played": 9,
+    "points": 9,
+    "position": 15,
+    "team": "Fulham",
+    "won": 2
+   },
+   {
     "draw": 0,
     "ga": 16,
     "gd": -7,
     "gf": 9,
     "lost": 6,
-    "move": 2,
+    "move": 1,
     "played": 9,
     "points": 9,
-    "position": 15,
+    "position": 16,
     "team": "Coventry City",
     "won": 3
-   },
-   {
-    "draw": 2,
-    "ga": 10,
-    "gd": -2,
-    "gf": 8,
-    "lost": 4,
-    "move": 2,
-    "played": 8,
-    "points": 8,
-    "position": 16,
-    "team": "Fulham",
-    "won": 2
    },
    {
     "draw": 4,

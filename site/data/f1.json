@@ -285,6 +285,15 @@
    "position": 23,
    "team": "Cadillac F1 Team",
    "wins": 0
+  },
+  {
+   "code": "ryo_hirakawa",
+   "move": 0,
+   "name": "Ryo Hirakawa",
+   "points": 0,
+   "position": 24,
+   "team": "Haas F1 Team",
+   "wins": 0
   }
  ],
  "last_race": {
