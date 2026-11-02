@@ -1261,38 +1261,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Sevilla FC",
-    "date": "2026-11-01T13:00:00Z",
-    "hg": null,
-    "home": "Getafe",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Real Madrid",
-    "date": "2026-11-01T15:15:00Z",
-    "hg": null,
-    "home": "Santander",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Valencia",
-    "date": "2026-11-01T17:30:00Z",
-    "hg": null,
-    "home": "Elche",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Real Sociedad",
-    "date": "2026-11-01T20:00:00Z",
-    "hg": null,
-    "home": "Athletic",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Osasuna",
     "date": "2026-11-02T20:00:00Z",
     "hg": null,

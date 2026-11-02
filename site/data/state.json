@@ -11,19 +11,20 @@
    "GAS": 10,
    "HAD": 8,
    "HAM": 3,
+   "HIR": 23,
    "HUL": 14,
    "LAW": 9,
    "LEC": 5,
    "LIN": 11,
    "NOR": 6,
    "OCO": 16,
-   "PER": 23,
+   "PER": 24,
    "PIA": 7,
-   "RUS": 2,
+   "RUS": 4,
    "SAI": 18,
    "STR": 21,
    "TSU": 20,
-   "VER": 4
+   "VER": 2
   },
   "drivers_prev": {
    "ALB": 19,
@@ -50,7 +51,7 @@
    "TSU": 20,
    "VER": 4
   },
-  "round": 18,
+  "round": 19,
   "teams_cur": {
    "Alpine F1 Team": 6,
    "Aston Martin": 10,
@@ -71,10 +72,10 @@
    "Cadillac F1 Team": 11,
    "Ferrari": 2,
    "Haas F1 Team": 7,
-   "McLaren": 3,
+   "McLaren": 4,
    "Mercedes": 1,
    "RB F1 Team": 5,
-   "Red Bull": 4,
+   "Red Bull": 3,
    "Williams": 9
   }
  },
