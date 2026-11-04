@@ -9,7 +9,7 @@
      "loser_pos": 5,
      "score": "2-0",
      "winner": "Grêmio",
-     "winner_pos": 16
+     "winner_pos": 17
     }
    ]
   },
@@ -240,14 +240,14 @@
     "won": 12
    },
    {
-    "draw": 10,
-    "ga": 50,
-    "gd": -10,
+    "draw": 9,
+    "ga": 51,
+    "gd": -11,
     "gf": 40,
-    "lost": 13,
+    "lost": 14,
     "move": 1,
     "played": 34,
-    "points": 43,
+    "points": 42,
     "position": 11,
     "team": "Coritiba",
     "won": 11
@@ -305,15 +305,28 @@
     "won": 10
    },
    {
+    "draw": 11,
+    "ga": 42,
+    "gd": -4,
+    "gf": 38,
+    "lost": 14,
+    "move": 0,
+    "played": 34,
+    "points": 38,
+    "position": 16,
+    "team": "Internacional",
+    "won": 9
+   },
+   {
     "draw": 10,
     "ga": 44,
     "gd": -7,
     "gf": 37,
     "lost": 14,
-    "move": 1,
+    "move": 0,
     "played": 33,
     "points": 37,
-    "position": 16,
+    "position": 17,
     "team": "Grêmio",
     "won": 9
    },
@@ -323,25 +336,12 @@
     "gd": -6,
     "gf": 36,
     "lost": 15,
-    "move": 1,
+    "move": 0,
     "played": 33,
     "points": 36,
-    "position": 17,
+    "position": 18,
     "team": "Corinthians",
     "won": 9
-   },
-   {
-    "draw": 12,
-    "ga": 42,
-    "gd": -5,
-    "gf": 37,
-    "lost": 14,
-    "move": -2,
-    "played": 34,
-    "points": 36,
-    "position": 18,
-    "team": "Internacional",
-    "won": 8
    },
    {
     "draw": 11,
