@@ -2,107 +2,106 @@
  "BSA": {
   "code": "BSA",
   "highlights": {
-   "goleadas": [],
-   "zebras": [
+   "goleadas": [
     {
-     "loser": "Botafogo",
-     "loser_pos": 11,
-     "score": "2-1",
-     "winner": "Clube do Remo",
-     "winner_pos": 19
-    },
+     "loser": "Clube do Remo",
+     "score": "6-1",
+     "winner": "Palmeiras"
+    }
+   ],
+   "zebras": [
     {
      "loser": "Paranaense",
      "loser_pos": 5,
-     "score": "2-0",
-     "winner": "Grêmio",
-     "winner_pos": 18
+     "score": "3-1",
+     "winner": "Vasco da Gama",
+     "winner_pos": 13
     }
    ]
   },
   "last_round": [
    {
-    "ag": 0,
-    "away": "Chapecoense",
-    "date": "2026-10-28T22:30:00Z",
-    "hg": 3,
+    "ag": 1,
+    "away": "Santos",
+    "date": "2026-11-02T23:00:00Z",
+    "hg": 2,
     "home": "Bragantino",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Internacional",
-    "date": "2026-10-28T22:30:00Z",
-    "hg": 2,
-    "home": "Fluminense",
+    "ag": 2,
+    "away": "Mirassol",
+    "date": "2026-11-03T22:30:00Z",
+    "hg": 1,
+    "home": "Chapecoense",
     "status": "FINISHED"
    },
    {
     "ag": 0,
-    "away": "Palmeiras",
-    "date": "2026-10-28T22:30:00Z",
+    "away": "Coritiba",
+    "date": "2026-11-04T00:30:00Z",
+    "hg": 1,
+    "home": "Internacional",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 3,
+    "away": "Vasco da Gama",
+    "date": "2026-11-04T22:30:00Z",
+    "hg": 1,
+    "home": "Paranaense",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 1,
+    "away": "Grêmio",
+    "date": "2026-11-04T22:30:00Z",
+    "hg": 3,
+    "home": "Flamengo",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Mineiro",
+    "date": "2026-11-05T00:30:00Z",
+    "hg": 1,
+    "home": "Botafogo",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Corinthians",
+    "date": "2026-11-05T00:30:00Z",
     "hg": 0,
-    "home": "Santos",
+    "home": "São Paulo",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 1,
+    "away": "Clube do Remo",
+    "date": "2026-11-05T22:30:00Z",
+    "hg": 6,
+    "home": "Palmeiras",
     "status": "FINISHED"
    },
    {
     "ag": 2,
-    "away": "São Paulo",
-    "date": "2026-10-29T00:30:00Z",
+    "away": "Bahia",
+    "date": "2026-11-06T00:30:00Z",
     "hg": 3,
-    "home": "Bahia",
+    "home": "Cruzeiro",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Botafogo",
-    "date": "2026-10-29T00:30:00Z",
-    "hg": 2,
-    "home": "Clube do Remo",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Cruzeiro",
-    "date": "2026-10-29T22:30:00Z",
+    "ag": 3,
+    "away": "Fluminense",
+    "date": "2026-11-06T23:00:00Z",
     "hg": 0,
-    "home": "Mineiro",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 4,
-    "away": "Flamengo",
-    "date": "2026-10-29T23:00:00Z",
-    "hg": 1,
-    "home": "Vasco da Gama",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Paranaense",
-    "date": "2026-10-30T00:30:00Z",
-    "hg": 2,
-    "home": "Grêmio",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Mirassol",
-    "date": "2026-10-30T23:00:00Z",
-    "hg": 2,
-    "home": "Corinthians",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Vitória",
-    "date": "2026-10-31T19:00:00Z",
-    "hg": 2,
-    "home": "Coritiba",
+    "home": "Vitória",
     "status": "FINISHED"
    }
   ],
-  "matchday": 33,
+  "matchday": 34,
   "name": "Brasileirão Série A",
   "next_round": [
    {
@@ -114,7 +113,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": false,
+  "settled": true,
   "table": [
    {
     "draw": 7,
@@ -158,10 +157,10 @@
    {
     "draw": 9,
     "ga": 42,
-    "gd": 12,
-    "gf": 54,
+    "gd": 13,
+    "gf": 55,
     "lost": 9,
-    "move": 1,
+    "move": 0,
     "played": 34,
     "points": 57,
     "position": 4,
@@ -174,7 +173,7 @@
     "gd": 8,
     "gf": 51,
     "lost": 10,
-    "move": -1,
+    "move": 0,
     "played": 34,
     "points": 54,
     "position": 5,
@@ -187,7 +186,7 @@
     "gd": 5,
     "gf": 50,
     "lost": 9,
-    "move": 1,
+    "move": 0,
     "played": 34,
     "points": 53,
     "position": 6,
@@ -200,7 +199,7 @@
     "gd": 4,
     "gf": 44,
     "lost": 12,
-    "move": -1,
+    "move": 0,
     "played": 34,
     "points": 50,
     "position": 7,
@@ -213,7 +212,7 @@
     "gd": 5,
     "gf": 44,
     "lost": 13,
-    "move": 2,
+    "move": 1,
     "played": 34,
     "points": 47,
     "position": 8,
@@ -239,7 +238,7 @@
     "gd": 0,
     "gf": 39,
     "lost": 14,
-    "move": -1,
+    "move": 0,
     "played": 34,
     "points": 44,
     "position": 10,
@@ -252,7 +251,7 @@
     "gd": -7,
     "gf": 46,
     "lost": 14,
-    "move": 0,
+    "move": 1,
     "played": 34,
     "points": 42,
     "position": 11,
@@ -265,7 +264,7 @@
     "gd": -11,
     "gf": 40,
     "lost": 14,
-    "move": 0,
+    "move": -1,
     "played": 34,
     "points": 42,
     "position": 12,
@@ -291,7 +290,7 @@
     "gd": -9,
     "gf": 39,
     "lost": 14,
-    "move": 1,
+    "move": 2,
     "played": 34,
     "points": 40,
     "position": 14,
@@ -300,8 +299,8 @@
    },
    {
     "draw": 8,
-    "ga": 50,
-    "gd": -15,
+    "ga": 51,
+    "gd": -16,
     "gf": 35,
     "lost": 16,
     "move": -1,
@@ -317,7 +316,7 @@
     "gd": -4,
     "gf": 38,
     "lost": 14,
-    "move": 0,
+    "move": 2,
     "played": 34,
     "points": 38,
     "position": 16,
@@ -330,7 +329,7 @@
     "gd": -6,
     "gf": 36,
     "lost": 15,
-    "move": 1,
+    "move": 0,
     "played": 34,
     "points": 37,
     "position": 17,
@@ -343,7 +342,7 @@
     "gd": -9,
     "gf": 38,
     "lost": 15,
-    "move": -1,
+    "move": -3,
     "played": 34,
     "points": 37,
     "position": 18,
@@ -1701,14 +1700,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Coventry City",
-    "date": "2026-11-06T20:00:00Z",
-    "hg": null,
-    "home": "Everton",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Tottenham",
     "date": "2026-11-07T12:30:00Z",
     "hg": null,
@@ -1780,7 +1771,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": true,
+  "settled": false,
   "table": [
    {
     "draw": 0,
