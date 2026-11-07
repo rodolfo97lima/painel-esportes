@@ -1183,7 +1183,15 @@
      "winner": "Barça"
     }
    ],
-   "zebras": []
+   "zebras": [
+    {
+     "loser": "Sevilla FC",
+     "loser_pos": 6,
+     "score": "3-1",
+     "winner": "Getafe",
+     "winner_pos": 15
+    }
+   ]
   },
   "last_round": [
    {
@@ -1271,28 +1279,12 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": null,
-    "away": "Santander",
-    "date": "2026-11-07T13:00:00Z",
-    "hg": null,
-    "home": "Málaga",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Deportivo",
-    "date": "2026-11-07T15:15:00Z",
-    "hg": null,
-    "home": "Espanyol",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
+    "ag": 0,
     "away": "Athletic",
     "date": "2026-11-07T17:30:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Osasuna",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -1424,30 +1416,43 @@
     "won": 5
    },
    {
-    "draw": 3,
+    "draw": 4,
     "ga": 10,
     "gd": 4,
     "gf": 14,
     "lost": 3,
     "move": 1,
-    "played": 10,
-    "points": 15,
+    "played": 11,
+    "points": 16,
     "position": 7,
     "team": "Athletic",
     "won": 4
    },
    {
-    "draw": 5,
+    "draw": 6,
     "ga": 14,
     "gd": 1,
     "gf": 15,
     "lost": 3,
     "move": 3,
-    "played": 11,
-    "points": 14,
+    "played": 12,
+    "points": 15,
     "position": 8,
     "team": "Deportivo",
     "won": 3
+   },
+   {
+    "draw": 2,
+    "ga": 30,
+    "gd": -13,
+    "gf": 17,
+    "lost": 6,
+    "move": 4,
+    "played": 12,
+    "points": 14,
+    "position": 9,
+    "team": "Santander",
+    "won": 4
    },
    {
     "draw": 4,
@@ -1455,10 +1460,10 @@
     "gd": -2,
     "gf": 15,
     "lost": 5,
-    "move": -2,
+    "move": -3,
     "played": 12,
     "points": 13,
-    "position": 9,
+    "position": 10,
     "team": "Alavés",
     "won": 3
    },
@@ -1468,10 +1473,10 @@
     "gd": 0,
     "gf": 15,
     "lost": 5,
-    "move": 0,
+    "move": -1,
     "played": 11,
     "points": 12,
-    "position": 10,
+    "position": 11,
     "team": "Villarreal",
     "won": 3
    },
@@ -1481,12 +1486,25 @@
     "gd": 0,
     "gf": 10,
     "lost": 3,
-    "move": -2,
+    "move": -3,
     "played": 11,
     "points": 12,
-    "position": 11,
+    "position": 12,
     "team": "Celta",
     "won": 2
+   },
+   {
+    "draw": 3,
+    "ga": 14,
+    "gd": -1,
+    "gf": 13,
+    "lost": 6,
+    "move": 5,
+    "played": 12,
+    "points": 12,
+    "position": 13,
+    "team": "Espanyol",
+    "won": 3
    },
    {
     "draw": 3,
@@ -1494,10 +1512,10 @@
     "gd": -5,
     "gf": 15,
     "lost": 4,
-    "move": 4,
+    "move": 2,
     "played": 10,
     "points": 12,
-    "position": 12,
+    "position": 14,
     "team": "Rayo Vallecano",
     "won": 3
    },
@@ -1507,50 +1525,24 @@
     "gd": -8,
     "gf": 8,
     "lost": 5,
-    "move": 4,
+    "move": 2,
     "played": 11,
     "points": 12,
-    "position": 13,
+    "position": 15,
     "team": "Getafe",
     "won": 3
    },
    {
-    "draw": 2,
-    "ga": 14,
-    "gd": -1,
-    "gf": 13,
-    "lost": 6,
-    "move": 4,
-    "played": 11,
-    "points": 11,
-    "position": 14,
-    "team": "Espanyol",
-    "won": 3
-   },
-   {
-    "draw": 2,
+    "draw": 3,
     "ga": 22,
     "gd": -11,
     "gf": 11,
     "lost": 6,
-    "move": -3,
-    "played": 11,
-    "points": 11,
-    "position": 15,
-    "team": "Osasuna",
-    "won": 3
-   },
-   {
-    "draw": 2,
-    "ga": 29,
-    "gd": -14,
-    "gf": 15,
-    "lost": 6,
-    "move": -3,
-    "played": 11,
-    "points": 11,
+    "move": -4,
+    "played": 12,
+    "points": 12,
     "position": 16,
-    "team": "Santander",
+    "team": "Osasuna",
     "won": 3
    },
    {
@@ -1594,12 +1586,12 @@
    },
    {
     "draw": 5,
-    "ga": 21,
-    "gd": -13,
-    "gf": 8,
-    "lost": 6,
+    "ga": 23,
+    "gd": -14,
+    "gf": 9,
+    "lost": 7,
     "move": 0,
-    "played": 11,
+    "played": 12,
     "points": 5,
     "position": 20,
     "team": "Málaga",
@@ -1699,36 +1691,12 @@
   "name": "Premier League",
   "next_round": [
    {
-    "ag": null,
-    "away": "Tottenham",
-    "date": "2026-11-07T12:30:00Z",
-    "hg": null,
-    "home": "Leeds United",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Hull City",
-    "date": "2026-11-07T15:00:00Z",
-    "hg": null,
-    "home": "Arsenal",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Newcastle",
-    "date": "2026-11-07T15:00:00Z",
-    "hg": null,
-    "home": "Fulham",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
+    "ag": 0,
     "away": "Man City",
     "date": "2026-11-07T17:30:00Z",
-    "hg": null,
+    "hg": 1,
     "home": "Nottingham",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -1776,24 +1744,24 @@
    {
     "draw": 0,
     "ga": 5,
-    "gd": 9,
-    "gf": 14,
+    "gd": 10,
+    "gf": 15,
     "lost": 1,
     "move": 1,
-    "played": 9,
-    "points": 24,
+    "played": 10,
+    "points": 27,
     "position": 1,
     "team": "Arsenal",
-    "won": 8
+    "won": 9
    },
    {
     "draw": 0,
-    "ga": 10,
-    "gd": 10,
+    "ga": 11,
+    "gd": 9,
     "gf": 20,
-    "lost": 2,
+    "lost": 3,
     "move": -1,
-    "played": 9,
+    "played": 10,
     "points": 21,
     "position": 2,
     "team": "Man City",
@@ -1865,29 +1833,55 @@
     "won": 3
    },
    {
+    "draw": 5,
+    "ga": 8,
+    "gd": 2,
+    "gf": 10,
+    "lost": 2,
+    "move": -1,
+    "played": 10,
+    "points": 14,
+    "position": 8,
+    "team": "Leeds United",
+    "won": 3
+   },
+   {
     "draw": 3,
     "ga": 13,
     "gd": 1,
     "gf": 14,
     "lost": 3,
-    "move": 5,
+    "move": 4,
     "played": 9,
     "points": 12,
-    "position": 8,
+    "position": 9,
     "team": "Bournemouth",
     "won": 3
    },
    {
     "draw": 3,
-    "ga": 10,
-    "gd": 0,
+    "ga": 11,
+    "gd": -1,
     "gf": 10,
-    "lost": 3,
-    "move": 5,
-    "played": 9,
+    "lost": 4,
+    "move": 4,
+    "played": 10,
     "points": 12,
-    "position": 9,
+    "position": 10,
     "team": "Tottenham",
+    "won": 3
+   },
+   {
+    "draw": 3,
+    "ga": 16,
+    "gd": -3,
+    "gf": 13,
+    "lost": 4,
+    "move": -3,
+    "played": 10,
+    "points": 12,
+    "position": 11,
+    "team": "Newcastle",
     "won": 3
    },
    {
@@ -1896,51 +1890,25 @@
     "gd": -3,
     "gf": 10,
     "lost": 3,
-    "move": -1,
+    "move": -3,
     "played": 9,
     "points": 12,
-    "position": 10,
+    "position": 12,
     "team": "Aston Villa",
     "won": 3
    },
    {
     "draw": 5,
-    "ga": 10,
-    "gd": 1,
+    "ga": 11,
+    "gd": 0,
     "gf": 11,
-    "lost": 2,
-    "move": -1,
-    "played": 9,
-    "points": 11,
-    "position": 11,
-    "team": "Hull City",
-    "won": 2
-   },
-   {
-    "draw": 5,
-    "ga": 8,
-    "gd": 1,
-    "gf": 9,
-    "lost": 2,
-    "move": -5,
-    "played": 9,
-    "points": 11,
-    "position": 12,
-    "team": "Leeds United",
-    "won": 2
-   },
-   {
-    "draw": 2,
-    "ga": 15,
-    "gd": -3,
-    "gf": 12,
-    "lost": 4,
-    "move": -5,
-    "played": 9,
+    "lost": 3,
+    "move": -3,
+    "played": 10,
     "points": 11,
     "position": 13,
-    "team": "Newcastle",
-    "won": 3
+    "team": "Hull City",
+    "won": 2
    },
    {
     "draw": 2,
@@ -1956,16 +1924,29 @@
     "won": 3
    },
    {
-    "draw": 3,
-    "ga": 11,
+    "draw": 4,
+    "ga": 12,
     "gd": -2,
-    "gf": 9,
+    "gf": 10,
     "lost": 4,
     "move": 0,
-    "played": 9,
-    "points": 9,
+    "played": 10,
+    "points": 10,
     "position": 15,
     "team": "Fulham",
+    "won": 2
+   },
+   {
+    "draw": 3,
+    "ga": 12,
+    "gd": -5,
+    "gf": 7,
+    "lost": 5,
+    "move": 2,
+    "played": 10,
+    "points": 9,
+    "position": 16,
+    "team": "Nottingham",
     "won": 2
    },
    {
@@ -1974,10 +1955,10 @@
     "gd": -9,
     "gf": 10,
     "lost": 7,
-    "move": 3,
+    "move": 2,
     "played": 10,
     "points": 9,
-    "position": 16,
+    "position": 17,
     "team": "Coventry City",
     "won": 3
    },
@@ -1987,10 +1968,10 @@
     "gd": -5,
     "gf": 10,
     "lost": 4,
-    "move": -1,
+    "move": -2,
     "played": 9,
     "points": 7,
-    "position": 17,
+    "position": 18,
     "team": "Man United",
     "won": 1
    },
@@ -2000,25 +1981,12 @@
     "gd": -12,
     "gf": 9,
     "lost": 6,
-    "move": -1,
+    "move": -2,
     "played": 9,
     "points": 7,
-    "position": 18,
+    "position": 19,
     "team": "Crystal Palace",
     "won": 2
-   },
-   {
-    "draw": 3,
-    "ga": 12,
-    "gd": -6,
-    "gf": 6,
-    "lost": 5,
-    "move": -1,
-    "played": 9,
-    "points": 6,
-    "position": 19,
-    "team": "Nottingham",
-    "won": 1
    },
    {
     "draw": 2,
