@@ -1279,20 +1279,12 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Athletic",
-    "date": "2026-11-07T17:30:00Z",
-    "hg": 0,
-    "home": "Osasuna",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
+    "ag": 3,
     "away": "Real Madrid",
     "date": "2026-11-07T20:00:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Valencia",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -1351,29 +1343,29 @@
     "won": 10
    },
    {
+    "draw": 0,
+    "ga": 10,
+    "gd": 21,
+    "gf": 31,
+    "lost": 2,
+    "move": 1,
+    "played": 12,
+    "points": 30,
+    "position": 2,
+    "team": "Real Madrid",
+    "won": 10
+   },
+   {
     "draw": 1,
     "ga": 8,
     "gd": 14,
     "gf": 22,
     "lost": 1,
-    "move": 0,
+    "move": -1,
     "played": 11,
     "points": 28,
-    "position": 2,
-    "team": "Atleti",
-    "won": 9
-   },
-   {
-    "draw": 0,
-    "ga": 10,
-    "gd": 18,
-    "gf": 28,
-    "lost": 2,
-    "move": 0,
-    "played": 11,
-    "points": 27,
     "position": 3,
-    "team": "Real Madrid",
+    "team": "Atleti",
     "won": 9
    },
    {
@@ -1417,9 +1409,9 @@
    },
    {
     "draw": 4,
-    "ga": 10,
+    "ga": 11,
     "gd": 4,
-    "gf": 14,
+    "gf": 15,
     "lost": 3,
     "move": 1,
     "played": 11,
@@ -1534,9 +1526,9 @@
    },
    {
     "draw": 3,
-    "ga": 22,
+    "ga": 23,
     "gd": -11,
-    "gf": 11,
+    "gf": 12,
     "lost": 6,
     "move": -4,
     "played": 12,
@@ -1573,12 +1565,12 @@
    },
    {
     "draw": 3,
-    "ga": 17,
-    "gd": -9,
+    "ga": 20,
+    "gd": -12,
     "gf": 8,
-    "lost": 6,
+    "lost": 7,
     "move": 0,
-    "played": 11,
+    "played": 12,
     "points": 9,
     "position": 19,
     "team": "Valencia",
@@ -1691,14 +1683,6 @@
   "name": "Premier League",
   "next_round": [
    {
-    "ag": 0,
-    "away": "Man City",
-    "date": "2026-11-07T17:30:00Z",
-    "hg": 1,
-    "home": "Nottingham",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Liverpool",
     "date": "2026-11-08T14:00:00Z",
@@ -1756,9 +1740,9 @@
    },
    {
     "draw": 0,
-    "ga": 11,
-    "gd": 9,
-    "gf": 20,
+    "ga": 13,
+    "gd": 8,
+    "gf": 21,
     "lost": 3,
     "move": -1,
     "played": 10,
@@ -1938,9 +1922,9 @@
    },
    {
     "draw": 3,
-    "ga": 12,
-    "gd": -5,
-    "gf": 7,
+    "ga": 13,
+    "gd": -4,
+    "gf": 9,
     "lost": 5,
     "move": 2,
     "played": 10,
