@@ -158,15 +158,15 @@
    {
     "draw": 9,
     "ga": 42,
-    "gd": 10,
-    "gf": 52,
+    "gd": 12,
+    "gf": 54,
     "lost": 9,
     "move": 1,
-    "played": 33,
-    "points": 54,
+    "played": 34,
+    "points": 57,
     "position": 4,
     "team": "Fluminense",
-    "won": 15
+    "won": 16
    },
    {
     "draw": 9,
@@ -300,12 +300,12 @@
    },
    {
     "draw": 8,
-    "ga": 48,
-    "gd": -13,
+    "ga": 50,
+    "gd": -15,
     "gf": 35,
-    "lost": 15,
+    "lost": 16,
     "move": -1,
-    "played": 33,
+    "played": 34,
     "points": 38,
     "position": 15,
     "team": "Vitória",
@@ -1273,14 +1273,6 @@
   "next_round": [
    {
     "ag": null,
-    "away": "Alavés",
-    "date": "2026-11-06T20:00:00Z",
-    "hg": null,
-    "home": "Sevilla FC",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
     "away": "Santander",
     "date": "2026-11-07T13:00:00Z",
     "hg": null,
@@ -1352,7 +1344,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": true,
+  "settled": false,
   "table": [
    {
     "draw": 0,
@@ -1420,14 +1412,14 @@
     "won": 6
    },
    {
-    "draw": 2,
+    "draw": 3,
     "ga": 19,
     "gd": -2,
     "gf": 17,
     "lost": 4,
     "move": 0,
-    "played": 11,
-    "points": 17,
+    "played": 12,
+    "points": 18,
     "position": 6,
     "team": "Sevilla FC",
     "won": 5
@@ -1459,15 +1451,28 @@
     "won": 3
    },
    {
+    "draw": 4,
+    "ga": 17,
+    "gd": -2,
+    "gf": 15,
+    "lost": 5,
+    "move": -2,
+    "played": 12,
+    "points": 13,
+    "position": 9,
+    "team": "Alavés",
+    "won": 3
+   },
+   {
     "draw": 3,
     "ga": 15,
     "gd": 0,
     "gf": 15,
     "lost": 5,
-    "move": 1,
+    "move": 0,
     "played": 11,
     "points": 12,
-    "position": 9,
+    "position": 10,
     "team": "Villarreal",
     "won": 3
    },
@@ -1477,25 +1482,12 @@
     "gd": 0,
     "gf": 10,
     "lost": 3,
-    "move": -1,
-    "played": 11,
-    "points": 12,
-    "position": 10,
-    "team": "Celta",
-    "won": 2
-   },
-   {
-    "draw": 3,
-    "ga": 17,
-    "gd": -2,
-    "gf": 15,
-    "lost": 5,
-    "move": -4,
+    "move": -2,
     "played": 11,
     "points": 12,
     "position": 11,
-    "team": "Alavés",
-    "won": 3
+    "team": "Celta",
+    "won": 2
    },
    {
     "draw": 3,
@@ -1843,15 +1835,28 @@
     "won": 5
    },
    {
+    "draw": 4,
+    "ga": 10,
+    "gd": 2,
+    "gf": 12,
+    "lost": 2,
+    "move": 6,
+    "played": 10,
+    "points": 16,
+    "position": 5,
+    "team": "Everton",
+    "won": 4
+   },
+   {
     "draw": 3,
     "ga": 9,
     "gd": 2,
     "gf": 11,
     "lost": 2,
-    "move": -1,
+    "move": -2,
     "played": 9,
     "points": 15,
-    "position": 5,
+    "position": 6,
     "team": "Liverpool",
     "won": 4
    },
@@ -1861,24 +1866,11 @@
     "gd": 7,
     "gf": 16,
     "lost": 1,
-    "move": 0,
+    "move": -1,
     "played": 9,
     "points": 14,
-    "position": 6,
-    "team": "Brentford",
-    "won": 3
-   },
-   {
-    "draw": 4,
-    "ga": 9,
-    "gd": 0,
-    "gf": 9,
-    "lost": 2,
-    "move": 4,
-    "played": 9,
-    "points": 13,
     "position": 7,
-    "team": "Everton",
+    "team": "Brentford",
     "won": 3
    },
    {
@@ -1987,12 +1979,12 @@
    },
    {
     "draw": 0,
-    "ga": 16,
-    "gd": -7,
-    "gf": 9,
-    "lost": 6,
+    "ga": 19,
+    "gd": -9,
+    "gf": 10,
+    "lost": 7,
     "move": 3,
-    "played": 9,
+    "played": 10,
     "points": 9,
     "position": 16,
     "team": "Coventry City",
