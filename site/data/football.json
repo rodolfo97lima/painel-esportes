@@ -1279,12 +1279,12 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": null,
+    "ag": 0,
     "away": "Real Betis",
     "date": "2026-11-08T13:00:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Elche",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -1361,14 +1361,14 @@
     "won": 9
    },
    {
-    "draw": 2,
+    "draw": 3,
     "ga": 15,
     "gd": 3,
     "gf": 18,
     "lost": 2,
     "move": 0,
-    "played": 11,
-    "points": 23,
+    "played": 12,
+    "points": 24,
     "position": 4,
     "team": "Real Betis",
     "won": 7
@@ -1530,14 +1530,14 @@
     "won": 3
    },
    {
-    "draw": 4,
+    "draw": 5,
     "ga": 18,
     "gd": -4,
     "gf": 14,
     "lost": 5,
     "move": -2,
-    "played": 11,
-    "points": 10,
+    "played": 12,
+    "points": 11,
     "position": 17,
     "team": "Elche",
     "won": 2
