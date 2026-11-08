@@ -1279,14 +1279,6 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": 3,
-    "away": "Real Madrid",
-    "date": "2026-11-07T20:00:00Z",
-    "hg": 0,
-    "home": "Valencia",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Real Betis",
     "date": "2026-11-08T13:00:00Z",

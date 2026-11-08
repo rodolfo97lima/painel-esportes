@@ -294,6 +294,15 @@
    "position": 24,
    "team": "Cadillac F1 Team",
    "wins": 0
+  },
+  {
+   "code": "rafael_camara",
+   "move": 0,
+   "name": "Rafael Camara",
+   "points": 0,
+   "position": 25,
+   "team": "Haas F1 Team",
+   "wins": 0
   }
  ],
  "last_race": {
