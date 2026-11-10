@@ -209,7 +209,7 @@
    }
   },
   "PD": {
-   "matchday": 12,
+   "matchday": 10,
    "table_cur": {
     "Alavés": 12,
     "Athletic": 7,
@@ -233,26 +233,26 @@
     "Villarreal": 8
    },
    "table_prev": {
-    "Alavés": 11,
+    "Alavés": 12,
     "Athletic": 7,
-    "Atleti": 2,
+    "Atleti": 3,
     "Barça": 1,
-    "Celta": 10,
-    "Deportivo": 8,
-    "Elche": 17,
-    "Espanyol": 14,
-    "Getafe": 13,
-    "Levante": 18,
+    "Celta": 11,
+    "Deportivo": 9,
+    "Elche": 18,
+    "Espanyol": 13,
+    "Getafe": 15,
+    "Levante": 17,
     "Málaga": 20,
-    "Osasuna": 15,
-    "Rayo Vallecano": 12,
+    "Osasuna": 16,
+    "Rayo Vallecano": 14,
     "Real Betis": 4,
-    "Real Madrid": 3,
+    "Real Madrid": 2,
     "Real Sociedad": 5,
-    "Santander": 16,
+    "Santander": 10,
     "Sevilla FC": 6,
     "Valencia": 19,
-    "Villarreal": 9
+    "Villarreal": 8
    }
   },
   "PL": {
