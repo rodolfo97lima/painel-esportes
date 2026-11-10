@@ -296,7 +296,7 @@
    "wins": 0
   },
   {
-   "code": "rafael_camara",
+   "code": "CAM",
    "move": 0,
    "name": "Rafael Camara",
    "points": 0,
@@ -521,7 +521,7 @@
     "time": "+32.463"
    },
    {
-    "code": "rafael_camara",
+    "code": "CAM",
     "fastest": false,
     "grid": 11,
     "name": "Rafael Camara",
