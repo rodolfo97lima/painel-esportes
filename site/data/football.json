@@ -1176,98 +1176,92 @@
  "PD": {
   "code": "PD",
   "highlights": {
-   "goleadas": [
-    {
-     "loser": "Getafe",
-     "score": "4-0",
-     "winner": "Athletic"
-    }
-   ],
+   "goleadas": [],
    "zebras": []
   },
   "last_round": [
    {
-    "ag": 1,
-    "away": "Málaga",
-    "date": "2026-10-23T19:00:00Z",
-    "hg": 1,
-    "home": "Alavés",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 3,
-    "away": "Elche",
-    "date": "2026-10-24T12:00:00Z",
+    "ag": 0,
+    "away": "Alavés",
+    "date": "2026-11-06T20:00:00Z",
     "hg": 0,
-    "home": "Rayo Vallecano",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 1,
-    "away": "Espanyol",
-    "date": "2026-10-24T14:15:00Z",
-    "hg": 2,
-    "home": "Santander",
+    "home": "Sevilla FC",
     "status": "FINISHED"
    },
    {
     "ag": 2,
-    "away": "Villarreal",
-    "date": "2026-10-24T16:30:00Z",
+    "away": "Santander",
+    "date": "2026-11-07T13:00:00Z",
     "hg": 1,
-    "home": "Valencia",
+    "home": "Málaga",
     "status": "FINISHED"
    },
    {
     "ag": 0,
     "away": "Deportivo",
-    "date": "2026-10-24T19:00:00Z",
+    "date": "2026-11-07T15:15:00Z",
+    "hg": 0,
+    "home": "Espanyol",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 1,
+    "away": "Athletic",
+    "date": "2026-11-07T17:30:00Z",
     "hg": 1,
-    "home": "Atleti",
+    "home": "Osasuna",
     "status": "FINISHED"
    },
    {
-    "ag": 0,
-    "away": "Getafe",
-    "date": "2026-10-25T13:00:00Z",
-    "hg": 4,
-    "home": "Athletic",
+    "ag": 3,
+    "away": "Real Madrid",
+    "date": "2026-11-07T20:00:00Z",
+    "hg": 0,
+    "home": "Valencia",
     "status": "FINISHED"
    },
    {
-    "ag": 0,
+    "ag": 2,
     "away": "Real Betis",
-    "date": "2026-10-25T15:15:00Z",
+    "date": "2026-11-08T13:00:00Z",
+    "hg": 0,
+    "home": "Elche",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Rayo Vallecano",
+    "date": "2026-11-08T15:15:00Z",
+    "hg": 1,
+    "home": "Real Sociedad",
+    "status": "FINISHED"
+   },
+   {
+    "ag": 0,
+    "away": "Levante",
+    "date": "2026-11-08T17:30:00Z",
     "hg": 0,
     "home": "Celta",
     "status": "FINISHED"
    },
    {
-    "ag": 1,
-    "away": "Levante",
-    "date": "2026-10-25T17:30:00Z",
+    "ag": 0,
+    "away": "Getafe",
+    "date": "2026-11-08T17:30:00Z",
     "hg": 2,
-    "home": "Real Sociedad",
+    "home": "Villarreal",
     "status": "FINISHED"
    },
    {
     "ag": 2,
-    "away": "Real Madrid",
-    "date": "2026-10-25T20:00:00Z",
+    "away": "Barça",
+    "date": "2026-11-08T20:00:00Z",
     "hg": 1,
-    "home": "Barça",
-    "status": "FINISHED"
-   },
-   {
-    "ag": 0,
-    "away": "Osasuna",
-    "date": "2026-10-26T20:00:00Z",
-    "hg": 2,
-    "home": "Sevilla FC",
+    "home": "Atleti",
     "status": "FINISHED"
    }
   ],
-  "matchday": 10,
+  "matchday": 12,
   "name": "La Liga",
   "next_round": [
    {
