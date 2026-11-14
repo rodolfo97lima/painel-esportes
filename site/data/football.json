@@ -113,7 +113,7 @@
     "status": "TIMED"
    }
   ],
-  "settled": true,
+  "settled": false,
   "table": [
    {
     "draw": 7,
@@ -194,14 +194,14 @@
     "won": 14
    },
    {
-    "draw": 8,
+    "draw": 9,
     "ga": 40,
     "gd": 4,
     "gf": 44,
     "lost": 12,
     "move": 0,
-    "played": 34,
-    "points": 50,
+    "played": 35,
+    "points": 51,
     "position": 7,
     "team": "Mineiro",
     "won": 14
@@ -285,14 +285,14 @@
     "won": 11
    },
    {
-    "draw": 10,
+    "draw": 11,
     "ga": 48,
     "gd": -9,
     "gf": 39,
     "lost": 14,
     "move": 2,
-    "played": 34,
-    "points": 40,
+    "played": 35,
+    "points": 41,
     "position": 14,
     "team": "Mirassol",
     "won": 10
