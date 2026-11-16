@@ -97,12 +97,76 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 1,
-    "away": "Vasco da Gama",
-    "date": "2026-11-14T23:30:00Z",
-    "hg": 0,
-    "home": "Chapecoense",
-    "status": "IN_PLAY"
+    "ag": null,
+    "away": "Santos",
+    "date": "2026-11-18T22:30:00Z",
+    "hg": null,
+    "home": "Coritiba",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Chapecoense",
+    "date": "2026-11-18T23:00:00Z",
+    "hg": null,
+    "home": "Clube do Remo",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Palmeiras",
+    "date": "2026-11-18T23:30:00Z",
+    "hg": null,
+    "home": "Cruzeiro",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Paranaense",
+    "date": "2026-11-18T23:30:00Z",
+    "hg": null,
+    "home": "Flamengo",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Botafogo",
+    "date": "2026-11-19T00:30:00Z",
+    "hg": null,
+    "home": "Corinthians",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bahia",
+    "date": "2026-11-19T00:30:00Z",
+    "hg": null,
+    "home": "Grêmio",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Internacional",
+    "date": "2026-11-19T22:30:00Z",
+    "hg": null,
+    "home": "Vasco da Gama",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Bragantino",
+    "date": "2026-11-19T22:30:00Z",
+    "hg": null,
+    "home": "Vitória",
+    "status": "TIMED"
+   },
+   {
+    "ag": null,
+    "away": "Fluminense",
+    "date": "2026-11-20T00:30:00Z",
+    "hg": null,
+    "home": "São Paulo",
+    "status": "TIMED"
    }
   ],
   "settled": false,
