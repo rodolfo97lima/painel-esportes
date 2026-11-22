@@ -97,28 +97,12 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": null,
-    "away": "Flamengo",
-    "date": "2026-11-21T19:30:00Z",
-    "hg": null,
-    "home": "Palmeiras",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
-    "away": "Coritiba",
-    "date": "2026-11-21T20:30:00Z",
-    "hg": null,
-    "home": "Bahia",
-    "status": "TIMED"
-   },
-   {
-    "ag": null,
+    "ag": 0,
     "away": "Cruzeiro",
     "date": "2026-11-22T00:00:00Z",
-    "hg": null,
+    "hg": 0,
     "home": "Chapecoense",
-    "status": "TIMED"
+    "status": "IN_PLAY"
    },
    {
     "ag": null,
@@ -177,30 +161,30 @@
     "status": "TIMED"
    }
   ],
-  "settled": true,
+  "settled": false,
   "table": [
    {
-    "draw": 7,
-    "ga": 30,
+    "draw": 8,
+    "ga": 31,
     "gd": 43,
-    "gf": 73,
+    "gf": 74,
     "lost": 4,
     "move": 0,
-    "played": 35,
-    "points": 79,
+    "played": 36,
+    "points": 80,
     "position": 1,
     "team": "Flamengo",
     "won": 24
    },
    {
-    "draw": 10,
-    "ga": 25,
+    "draw": 11,
+    "ga": 26,
     "gd": 38,
-    "gf": 63,
+    "gf": 64,
     "lost": 4,
     "move": 0,
-    "played": 35,
-    "points": 73,
+    "played": 36,
+    "points": 74,
     "position": 2,
     "team": "Palmeiras",
     "won": 21
@@ -208,15 +192,15 @@
    {
     "draw": 6,
     "ga": 49,
-    "gd": 8,
-    "gf": 57,
+    "gd": 9,
+    "gf": 58,
     "lost": 10,
     "move": 0,
-    "played": 35,
-    "points": 63,
+    "played": 36,
+    "points": 66,
     "position": 3,
     "team": "Cruzeiro",
-    "won": 19
+    "won": 20
    },
    {
     "draw": 9,
@@ -246,12 +230,12 @@
    },
    {
     "draw": 12,
-    "ga": 45,
-    "gd": 5,
+    "ga": 46,
+    "gd": 4,
     "gf": 50,
-    "lost": 9,
+    "lost": 10,
     "move": 0,
-    "played": 35,
+    "played": 36,
     "points": 54,
     "position": 6,
     "team": "Bahia",
@@ -310,15 +294,28 @@
     "won": 13
    },
    {
+    "draw": 9,
+    "ga": 52,
+    "gd": -11,
+    "gf": 41,
+    "lost": 15,
+    "move": 1,
+    "played": 36,
+    "points": 45,
+    "position": 11,
+    "team": "Coritiba",
+    "won": 12
+   },
+   {
     "draw": 8,
     "ga": 40,
     "gd": -1,
     "gf": 39,
     "lost": 15,
-    "move": -1,
+    "move": -2,
     "played": 35,
     "points": 44,
-    "position": 11,
+    "position": 12,
     "team": "São Paulo",
     "won": 12
    },
@@ -328,24 +325,11 @@
     "gd": -11,
     "gf": 46,
     "lost": 15,
-    "move": -1,
-    "played": 35,
-    "points": 42,
-    "position": 12,
-    "team": "Botafogo",
-    "won": 11
-   },
-   {
-    "draw": 9,
-    "ga": 52,
-    "gd": -12,
-    "gf": 40,
-    "lost": 15,
-    "move": -1,
+    "move": -2,
     "played": 35,
     "points": 42,
     "position": 13,
-    "team": "Coritiba",
+    "team": "Botafogo",
     "won": 11
    },
    {
@@ -428,12 +412,12 @@
    },
    {
     "draw": 9,
-    "ga": 72,
-    "gd": -39,
+    "ga": 73,
+    "gd": -40,
     "gf": 33,
-    "lost": 22,
+    "lost": 23,
     "move": 0,
-    "played": 35,
+    "played": 36,
     "points": 21,
     "position": 20,
     "team": "Chapecoense",
@@ -1329,22 +1313,6 @@
   "name": "La Liga",
   "next_round": [
    {
-    "ag": 1,
-    "away": "Real Betis",
-    "date": "2026-11-21T17:30:00Z",
-    "hg": 0,
-    "home": "Sevilla FC",
-    "status": "IN_PLAY"
-   },
-   {
-    "ag": null,
-    "away": "Celta",
-    "date": "2026-11-21T20:00:00Z",
-    "hg": null,
-    "home": "Real Madrid",
-    "status": "TIMED"
-   },
-   {
     "ag": null,
     "away": "Villarreal",
     "date": "2026-11-22T13:00:00Z",
@@ -1402,29 +1370,16 @@
    },
    {
     "draw": 0,
-    "ga": 10,
-    "gd": 21,
-    "gf": 31,
+    "ga": 11,
+    "gd": 22,
+    "gf": 33,
     "lost": 2,
     "move": 0,
-    "played": 12,
-    "points": 30,
+    "played": 13,
+    "points": 33,
     "position": 2,
     "team": "Real Madrid",
-    "won": 10
-   },
-   {
-    "draw": 2,
-    "ga": 15,
-    "gd": 6,
-    "gf": 21,
-    "lost": 2,
-    "move": 1,
-    "played": 13,
-    "points": 29,
-    "position": 3,
-    "team": "Real Betis",
-    "won": 9
+    "won": 11
    },
    {
     "draw": 1,
@@ -1432,12 +1387,25 @@
     "gd": 13,
     "gf": 23,
     "lost": 2,
-    "move": -1,
+    "move": 0,
     "played": 12,
     "points": 28,
-    "position": 4,
+    "position": 3,
     "team": "Atleti",
     "won": 9
+   },
+   {
+    "draw": 3,
+    "ga": 16,
+    "gd": 5,
+    "gf": 21,
+    "lost": 2,
+    "move": 0,
+    "played": 13,
+    "points": 27,
+    "position": 4,
+    "team": "Real Betis",
+    "won": 8
    },
    {
     "draw": 1,
@@ -1453,14 +1421,14 @@
     "won": 7
    },
    {
-    "draw": 3,
+    "draw": 4,
     "ga": 20,
-    "gd": -3,
-    "gf": 17,
-    "lost": 5,
+    "gd": -2,
+    "gf": 18,
+    "lost": 4,
     "move": 0,
     "played": 13,
-    "points": 18,
+    "points": 19,
     "position": 6,
     "team": "Sevilla FC",
     "won": 5
@@ -1545,12 +1513,12 @@
    },
    {
     "draw": 7,
-    "ga": 10,
-    "gd": 0,
-    "gf": 10,
-    "lost": 3,
+    "ga": 12,
+    "gd": -1,
+    "gf": 11,
+    "lost": 4,
     "move": -2,
-    "played": 12,
+    "played": 13,
     "points": 13,
     "position": 13,
     "team": "Celta",
@@ -1755,14 +1723,6 @@
   "matchday": 10,
   "name": "Premier League",
   "next_round": [
-   {
-    "ag": 2,
-    "away": "Arsenal",
-    "date": "2026-11-21T17:30:00Z",
-    "hg": 2,
-    "home": "Newcastle",
-    "status": "IN_PLAY"
-   },
    {
     "ag": null,
     "away": "Brighton Hove",
