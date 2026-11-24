@@ -210,28 +210,28 @@
    }
   },
   "PD": {
-   "matchday": 12,
+   "matchday": 13,
    "table_cur": {
-    "Alavés": 12,
-    "Athletic": 7,
+    "Alavés": 9,
+    "Athletic": 8,
     "Atleti": 3,
     "Barça": 1,
-    "Celta": 11,
-    "Deportivo": 9,
-    "Elche": 18,
-    "Espanyol": 13,
-    "Getafe": 15,
-    "Levante": 17,
+    "Celta": 14,
+    "Deportivo": 12,
+    "Elche": 19,
+    "Espanyol": 11,
+    "Getafe": 18,
+    "Levante": 15,
     "Málaga": 20,
-    "Osasuna": 16,
-    "Rayo Vallecano": 14,
+    "Osasuna": 13,
+    "Rayo Vallecano": 16,
     "Real Betis": 4,
     "Real Madrid": 2,
     "Real Sociedad": 5,
-    "Santander": 10,
+    "Santander": 7,
     "Sevilla FC": 6,
-    "Valencia": 19,
-    "Villarreal": 8
+    "Valencia": 17,
+    "Villarreal": 10
    },
    "table_prev": {
     "Alavés": 12,
@@ -257,8 +257,30 @@
    }
   },
   "PL": {
-   "matchday": 10,
+   "matchday": 11,
    "table_cur": {
+    "Arsenal": 1,
+    "Aston Villa": 12,
+    "Bournemouth": 5,
+    "Brentford": 6,
+    "Brighton Hove": 2,
+    "Chelsea": 8,
+    "Coventry City": 14,
+    "Crystal Palace": 20,
+    "Everton": 9,
+    "Fulham": 15,
+    "Hull City": 11,
+    "Ipswich Town": 16,
+    "Leeds United": 7,
+    "Liverpool": 4,
+    "Man City": 3,
+    "Man United": 19,
+    "Newcastle": 13,
+    "Nottingham": 17,
+    "Sunderland": 18,
+    "Tottenham": 10
+   },
+   "table_prev": {
     "Arsenal": 1,
     "Aston Villa": 10,
     "Bournemouth": 7,
@@ -279,28 +301,6 @@
     "Nottingham": 16,
     "Sunderland": 19,
     "Tottenham": 11
-   },
-   "table_prev": {
-    "Arsenal": 1,
-    "Aston Villa": 10,
-    "Bournemouth": 8,
-    "Brentford": 6,
-    "Brighton Hove": 3,
-    "Chelsea": 4,
-    "Coventry City": 16,
-    "Crystal Palace": 18,
-    "Everton": 7,
-    "Fulham": 15,
-    "Hull City": 11,
-    "Ipswich Town": 14,
-    "Leeds United": 12,
-    "Liverpool": 5,
-    "Man City": 2,
-    "Man United": 17,
-    "Newcastle": 13,
-    "Nottingham": 19,
-    "Sunderland": 20,
-    "Tottenham": 9
    }
   }
  }
