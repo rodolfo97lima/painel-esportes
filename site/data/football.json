@@ -91,14 +91,6 @@
   "name": "Brasileirão Série A",
   "next_round": [
    {
-    "ag": 1,
-    "away": "Cruzeiro",
-    "date": "2026-11-27T23:00:00Z",
-    "hg": 0,
-    "home": "Fluminense",
-    "status": "IN_PLAY"
-   },
-   {
     "ag": null,
     "away": "Bahia",
     "date": "2026-11-29T00:00:00Z",
